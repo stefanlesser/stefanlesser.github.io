@@ -1,14 +1,13 @@
 ---
 title: "On Apple's Love Affair With Swift"
-date: 2018-06-19T18:02:57+01:00
+date: 2018-06-20
 ---
 
-# On Apple’s Love Affair with Swift
-I wanted to write a thoughtful article in response to [Dominik Wagner's "On my misalignment with Apple's love affair with Swift"](http://rant.monkeydom.de/posts/2018/06/10/on-my-misalignment-with-apple_s-love-affair-with-swift). During my research I realized, that Chris Lattner had already done this. Kind of. 17 months *before* Dominik published his piece.
+I wanted to write a thoughtful article in response to [Dominik Wagner's "On my misalignment with Apple's love affair with Swift"](http://rant.monkeydom.de/posts/2018/06/10/on-my-misalignment-with-apple_s-love-affair-with-swift). During my research I realized, that Chris Lattner had already done this. Sort of. 17 months *before* Dominik published his piece.
 
-Thanks to Marco Arment, Casey Liss, and John Siracusa for recording a fabulous "not an interview show" with Chris "extraordinary circumstance" Lattner, asking the right questions, and even publishing a transcript.
+Thanks to [Marco Arment](https://marco.org/), [Casey Liss](https://www.caseyliss.com/), and [John Siracusa](http://hypercritical.co) for recording a fabulous "not an interview show" with [Chris "extraordinary circumstance" Lattner](http://nondot.org/sabre/) back in January 2017, asking the right questions, and even [publishing a transcript](http://atp.fm/205-chris-lattner-interview-transcript).
 
-I give you *Accidental Tech Podcast #205 - People Don't Use the Weird Parts - "Apple Love Affair Remix"*:
+I give you *Accidental Tech Podcast #205 - People Don't Use the Weird Parts*, the *Apple Love Affair Remix*:
 
 Dominik Wagner:
 
@@ -20,7 +19,7 @@ Chris Lattner:
 
 > If you took away C from Objective-C, you couldn't use C arrays on the stack, for example. And if you couldn't do that, there's entire classes of applications where the performance just wouldn't be acceptable. We went around, around, around. We said the only way that this can make sense in terms of the cost of the disruption to the community is if we make it a safe programming language: not “safe” as in “you can have no bugs,” but “safe” in terms of memory safety while also providing high performance and moving the programming model forward.
 
-Swift.org:
+[Swift.org](http://swift.org/about/):
 
 > **Safe.** The most obvious way to write code should also behave in a safe manner. Undefined behavior is the enemy of safety, and developer mistakes should be caught before software is in production. Opting for safety sometimes means Swift will feel strict, but we believe that clarity saves time in the long run.
 
@@ -28,7 +27,7 @@ Chris Lattner:
 
 > One of the best and most annoying things about Objective-C is that it has C in it. This has been hugely important for Objective-C in practice, because if you run into a performance problem with objc_msgSend, you can always rewrite that algorithm in C. That's really, really, really important for Objective-C being successful in both in the days of NeXT on 16 MHz processors and also today for the low-level code that people are writing. That’s also one of the problems that makes it so that Objective-C and C are so intertwined that you can't actually take the C part out of Objective-C without producing a different language.
 
-Swift.org:
+[Swift.org](http://swift.org/about/):
 
 > **Fast.** Swift is intended as a replacement for C-based languages (C, C++, and Objective-C). As such, Swift must be comparable to those languages in performance for most tasks. Performance must also be predictable and consistent, not just fast in short bursts that require clean-up later. There are lots of languages with novel features — being fast is rare.
 
@@ -38,7 +37,7 @@ Chris Lattner:
 
 > It being familiar is actually a success in that way, and it's not a result of Swift trying to be Go or C# or whatever, it's about taking the best ideas from them and assembling them together. I think that you can probably pick a language and there's some good idea that came from them including D or Dart or Go or whatever. Swift does really draw from many, many different sources and it's really hard to tease them all out.
 
-Swift.org:
+[Swift.org](http://swift.org/about/):
 
 > **Expressive.** Swift benefits from decades of advancement in computer science to offer syntax that is a joy to use, with modern features developers expect. But Swift is never done. We will monitor language advancements and embrace what works, continually evolving to make Swift even better.
 
@@ -65,6 +64,8 @@ Dominik Wagner:
 * It is functional, object-oriented and protocol oriented all at the same time.
 
 Chris Lattner:
+
+> Swift also has a lot of things that just make common things easier. You can switch on a string, for example, and match the different cases. You can use enums — enums are just from the language geekery world of just algebraic data types. They're in tons of different functional languages. They're not novel by any means, but they're so useful and they solve so many problems just out of the box. Just having them at your fingertips is great. There's a lot of things about Swift and it probably depends on who you are, what you're experiences are. \[…\]
 
 > If you look at Swift over time, Swift 1 and Swift 2 are as similar to Objective-C as we could make them. If you look at the way that selectors are named, for example, there's a very direct correlation. If you look at the way Swift 1 was explained to people, it was explained to people as, it's just like Objective-C. You can use all your same patterns. You can use all the same frameworks. You can continue doing objecting-oriented programming. You can do all these things, but it also has some cool new things like enums and pattern-matching and these other things. It's great because it's just cleaned up syntax for what you already know plus it has some cool new stuff that you can play with.
 
@@ -202,10 +203,10 @@ Chris Lattner:
 
 > I'm not sure if this is a scalable approach.
 
-\*sigh\*
+*\*sigh\**
 
 Sources:
 
 - Dominik Wagner: [On my misalignment with Apple's love affair with Swift](http://rant.monkeydom.de/posts/2018/06/10/on-my-misalignment-with-apple_s-love-affair-with-swift)
-- Chris Lattner: [Transcript of ATP Episode #205](http://atp.fm/205-chris-lattner-interview-transcript#swiftcreation)
+- Chris Lattner: [Transcript of ATP Episode #205](http://atp.fm/205-chris-lattner-interview-transcript)
   ([Listen to the full episode](http://atp.fm/205))

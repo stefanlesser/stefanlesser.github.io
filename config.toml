@@ -2,11 +2,20 @@ baseURL = "http://stefan-lesser.com/"
 languageCode = "en-us"
 title = "Stefan Lesser"
 theme = "lithium"
+googleAnalytics = ""
 
 tags = ["blog"]
 features = ["blog", "google analytics"]
 min_version = 0.15
 
 [author]
-name = "Stefan Lesser"
-homepage = "http://stefan-lesser.com/"
+    name = "Stefan Lesser"
+    homepage = "http://stefan-lesser.com/"
+
+[permalinks]
+    post = "/:year/:month/:day/:title/"
+    page = "/:title/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
