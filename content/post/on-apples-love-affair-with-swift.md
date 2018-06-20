@@ -61,20 +61,6 @@ Chris Lattner:
 
 Dominik Wagner:
 
-* It is functional, object-oriented and protocol oriented all at the same time.
-
-Chris Lattner:
-
-> Swift also has a lot of things that just make common things easier. You can switch on a string, for example, and match the different cases. You can use enums — enums are just from the language geekery world of just algebraic data types. They're in tons of different functional languages. They're not novel by any means, but they're so useful and they solve so many problems just out of the box. Just having them at your fingertips is great. There's a lot of things about Swift and it probably depends on who you are, what you're experiences are. \[…\]
-
-> If you look at Swift over time, Swift 1 and Swift 2 are as similar to Objective-C as we could make them. If you look at the way that selectors are named, for example, there's a very direct correlation. If you look at the way Swift 1 was explained to people, it was explained to people as, it's just like Objective-C. You can use all your same patterns. You can use all the same frameworks. You can continue doing objecting-oriented programming. You can do all these things, but it also has some cool new things like enums and pattern-matching and these other things. It's great because it's just cleaned up syntax for what you already know plus it has some cool new stuff that you can play with.
-
-> Then you fast forward a year or two and the Swift community was really taking off. People were understanding what Swift was about. Swift open-source also enabled this. And Swift 3 is really about Swift becoming its own language that was really true to itself and stands by itself. That's where you see the method call syntax, for example, being radically changed and a lot of things coming together and really focusing and polishing the language.
-
-----
-
-Dominik Wagner:
-
 * It is compiled and static, but emphasized the REPL and playground face that makes it want to look like a great scripting solution. Which it isn't.
 
 Chris Lattner:
@@ -126,30 +112,6 @@ Chris Lattner:
 ----
 
 Dominik Wagner:
-
-> On top of all of this, there is that great tension with the existing Apple framework ecosystem. While Apple did a great job on exposing Cocoa/Foundation as graspable into Swift as they could, there is still great tension in the way Swift wants to see the world, and the design paradigms that created the existing frameworks. That tension is not resolved yet, and since it is a design conflict, essentially can't be resolved. Just mitigated. From old foundational design patterns of Cocoa, like delegation, data sources, flat class hierarchies, over to the way the collection classes work, and how forgiving the API in general should be.
-
-> If you work in that world you are constantly torn between doing things the Swift/standard-library way, or the Cocoa way and bridging in-between. To make matters worse there are a lot of concepts that don't even have a good equivalent.
-
-Chris Lattner:
-
-> Swift does support all the features for dynamic dispatch and method lookup and everything else that Objective-C does, it just requires you to use the Objective-C subset of the language because it exposes it through the run time. \[…\]
-
-> I look at that as an area where the language is not fully baked out, it’s not fully serving their needs, and I think that's really unfortunate.
-
-> That's not a good thing. I want there to be an awesome reflection model. I want there to be awesome features for sending messages like they're used to. I just want it to be developed and designed in the right way, and at the same time they're being annoyed that they can't do those things, there are a lot of other people being annoyed about compile times.
-
-> What we have to do is balance between — just picking two random things — where does the engineering effort go? That's never a black and white thing. There's never a right answer. It's all based on gut and judgment and guesses, listening to the community, and talking to people. \[…\]
-
-> That insight is what guides the priority decisions and the trade-offs that have to be made all the time, because nothing really is as clear as you'd like it to be.
-
-----
-
-Dominik Wagner:
-
-> This, for me at least, generates an almost unbearable mental load. It leads to writers block and/or running around in cognitive circles trying to answer questions on how to best express the problem, or make Swift be happy with my code.
-
-> To add insult to injury, all this attention is taken away from solving and focussing on the actual problem: writing a great app or framework that is a joy to use. Whereas Objective‑C/Cocoa always strived for maximum developer productivity and purpose.
 
 > Yes, Swift code might end up being more correct in the end. It also might alert you to edge cases early on. However, the flip side is it inhibits your creativity while writing. When starting out to program, the way I enjoy working, I don't yet know how the API is best expressed. So I try out different ways to express it until I find a sweet spot. Then I go back and unify accordingly.
 
