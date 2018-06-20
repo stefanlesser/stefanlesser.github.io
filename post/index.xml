@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Stefan Lesser</title>
-    <link>http://stefan-lesser.com/post/</link>
+    <link>https://stefan-lesser.com/post/</link>
     <description>Recent content in Posts on Stefan Lesser</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://stefan-lesser.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://stefan-lesser.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>On Apple&#39;s Love Affair With Swift</title>
-      <link>http://stefan-lesser.com/2018/06/20/on-apples-love-affair-with-swift/</link>
+      <link>https://stefan-lesser.com/2018/06/20/on-apples-love-affair-with-swift/</link>
       <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://stefan-lesser.com/2018/06/20/on-apples-love-affair-with-swift/</guid>
+      <guid>https://stefan-lesser.com/2018/06/20/on-apples-love-affair-with-swift/</guid>
       <description>I wanted to write a thoughtful article in response to Dominik Wagner&amp;rsquo;s &amp;ldquo;On my misalignment with Apple&amp;rsquo;s love affair with Swift&amp;rdquo;. During my research I realized, that Chris Lattner had already done this. Sort of. 17 months before Dominik published his piece.
 Thanks to Marco Arment, Casey Liss, and John Siracusa for recording a fabulous &amp;ldquo;not an interview show&amp;rdquo; with Chris &amp;ldquo;extraordinary circumstance&amp;rdquo; Lattner back in January 2017, asking the right questions, and even publishing a transcript.</description>
     </item>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Stefan Lesser</title>
-    <link>http://stefan-lesser.com/page/</link>
+    <link>https://stefan-lesser.com/page/</link>
     <description>Recent content in Pages on Stefan Lesser</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Jun 2018 11:56:55 +0100</lastBuildDate>
     
-	<atom:link href="http://stefan-lesser.com/page/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://stefan-lesser.com/page/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>http://stefan-lesser.com/about/</link>
+      <link>https://stefan-lesser.com/about/</link>
       <pubDate>Wed, 20 Jun 2018 11:56:55 +0100</pubDate>
       
-      <guid>http://stefan-lesser.com/about/</guid>
+      <guid>https://stefan-lesser.com/about/</guid>
       <description>Hi, I&amp;rsquo;m Stefan. A passionate programmer, application architect, and former Apple Technology Evangelist.</description>
     </item>
     
