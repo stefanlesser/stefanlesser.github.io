@@ -1,5 +1,5 @@
 ---
-title: "On Apples Love Affair With Swift"
+title: "On Apple's Love Affair With Swift"
 date: 2018-06-19T18:02:57+01:00
 ---
 
