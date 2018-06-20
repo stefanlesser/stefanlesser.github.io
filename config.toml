@@ -2,7 +2,6 @@ baseURL = "http://stefan-lesser.com/"
 languageCode = "en-us"
 title = "Stefan Lesser"
 theme = "lithium"
-publishDir = "docs"
 googleAnalytics = "UA-7357192-1"
 
 tags = ["blog"]
