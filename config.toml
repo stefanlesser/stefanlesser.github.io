@@ -8,5 +8,5 @@ features = ["blog", "google analytics"]
 min_version = 0.15
 
 [author]
-name = "Jonathan Rutheiser"
+name = "Stefan Lesser"
 homepage = "http://stefan-lesser.com/"
