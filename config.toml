@@ -1,4 +1,4 @@
-baseURL = "http://stefan-lesser.com/"
+baseURL = "https://stefan-lesser.com/"
 languageCode = "en-us"
 title = "Stefan Lesser"
 theme = "lithium"
@@ -10,7 +10,7 @@ min_version = 0.15
 
 [author]
     name = "Stefan Lesser"
-    homepage = "http://stefan-lesser.com/"
+    homepage = "https://stefan-lesser.com/"
 
 [permalinks]
     post = "/:year/:month/:day/:title/"
