@@ -27,6 +27,12 @@ a {
   outline: none;
 }
 
+code {
+  max-width: 100%;
+  overflow: auto;
+  display: block;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -52,14 +58,6 @@ img {
   text-align: right;
 }
 
-.nav-title {
-  float: left;
-  font-size: 14px;
-  font-weight: bold;
-  color: #111;
-  text-decoration: none;
-}
-
 .nav-logo {
   float: left;
   margin-top: -11px;
@@ -74,6 +72,14 @@ img {
   display: block;
   max-height: 40px;
   width: auto;
+}
+
+.nav-title {
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  color: #111;
+  text-decoration: none;
 }
 
 .nav-links {
@@ -273,7 +279,7 @@ img {
     max-height: 50px;
   }
 
-  .nav-links, .nav-title {
+  .nav-links {
     font-size: 18px;
   }
 
@@ -297,7 +303,7 @@ img {
   }
 
   .archive-title {
-    font-size: 36px;
+    font-size: 38px;
   }
 
   .archive-item-date {
@@ -307,7 +313,7 @@ img {
   }
 
   .article-title {
-    font-size: 36px;
+    font-size: 42px;
   }
 
   .article-duration {

@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.42.1" />
+<meta name="generator" content="Hugo 0.60.1" />
 
 
 <title>On Apple&#39;s Love Affair With Swift - Stefan Lesser</title>
 <meta property="og:title" content="On Apple&#39;s Love Affair With Swift - Stefan Lesser">
+
 
 
 
@@ -16,8 +17,7 @@
 
 
 
-
-
+<link rel="icon" href="https://stefan-lesser.com/images/" type="image/x-icon"/>
 <link rel="stylesheet" href="https://stefan-lesser.com/css/main.css" media="all">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400|Lato:400,400italic,700">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -27,7 +27,9 @@
     <div class="wrapper">
       <header class="header">
         <nav class="nav">
-  <a href="https://stefan-lesser.com/" class="nav-title">Stefan Lesser</a>
+  <a href="https://stefan-lesser.com/" class="nav-title">
+    Stefan Lesser
+  </a>
 
   <ul class="nav-links">
     
@@ -53,226 +55,185 @@
     
 
     <div class="article-content">
-      <p>I wanted to write a thoughtful article in response to <a href="http://rant.monkeydom.de/posts/2018/06/10/on-my-misalignment-with-apple_s-love-affair-with-swift">Dominik Wagner&rsquo;s &ldquo;On my misalignment with Apple&rsquo;s love affair with Swift&rdquo;</a>. During my research I realized, that Chris Lattner had already done this. Sort of. 17 months <em>before</em> Dominik published his piece.</p>
-
+      <p>I wanted to write a thoughtful article in response to <a href="http://rant.monkeydom.de/posts/2018/06/10/on-my-misalignment-with-apple_s-love-affair-with-swift">Dominik Wagner's &ldquo;On my misalignment with Apple's love affair with Swift&rdquo;</a>. During my research I realized, that Chris Lattner had already done this. Sort of. 17 months <em>before</em> Dominik published his piece.</p>
 <p>Thanks to <a href="https://marco.org/">Marco Arment</a>, <a href="https://www.caseyliss.com/">Casey Liss</a>, and <a href="http://hypercritical.co">John Siracusa</a> for recording a fabulous &ldquo;not an interview show&rdquo; with <a href="http://nondot.org/sabre/">Chris &ldquo;extraordinary circumstance&rdquo; Lattner</a> back in January 2017, asking the right questions, and even <a href="http://atp.fm/205-chris-lattner-interview-transcript">publishing a transcript</a>.</p>
-
-<p>I give you <em>Accidental Tech Podcast #205 - People Don&rsquo;t Use the Weird Parts</em>, the <em>Apple Love Affair Remix</em>:</p>
-
+<p>I give you <em>Accidental Tech Podcast #205 - People Don't Use the Weird Parts</em>, the <em>Apple Love Affair Remix</em>:</p>
 <p>Dominik Wagner:</p>
-
 <blockquote>
 <p>First of all: Which question did it desire to answer? Think about it. There is no one clean answer. It just wanted to be better, more modern, the future – the one language to rule them all. A first red flag for anyone who ever tried to do a 2.0 rewrite of anything.</p>
 </blockquote>
-
 <p>Chris Lattner:</p>
-
 <blockquote>
-<p>The fundamental problem was Objective-C was built on top of C. C inherently has pointers. It has uninitialized variables. It has array overflows. It has all these problems that even if you have full control of your compiler and tool stack, you just can&rsquo;t fix. To fix dangling pointers, you would have to fix lifetime issues, and C doesn&rsquo;t have a framework to reason about that, and retrofitting that into a compatible way into the system just wouldn&rsquo;t really work.</p>
-
-<p>If you took away C from Objective-C, you couldn&rsquo;t use C arrays on the stack, for example. And if you couldn&rsquo;t do that, there&rsquo;s entire classes of applications where the performance just wouldn&rsquo;t be acceptable. We went around, around, around. We said the only way that this can make sense in terms of the cost of the disruption to the community is if we make it a safe programming language: not “safe” as in “you can have no bugs,” but “safe” in terms of memory safety while also providing high performance and moving the programming model forward.</p>
+<p>The fundamental problem was Objective-C was built on top of C. C inherently has pointers. It has uninitialized variables. It has array overflows. It has all these problems that even if you have full control of your compiler and tool stack, you just can't fix. To fix dangling pointers, you would have to fix lifetime issues, and C doesn't have a framework to reason about that, and retrofitting that into a compatible way into the system just wouldn't really work.</p>
 </blockquote>
-
+<blockquote>
+<p>If you took away C from Objective-C, you couldn't use C arrays on the stack, for example. And if you couldn't do that, there's entire classes of applications where the performance just wouldn't be acceptable. We went around, around, around. We said the only way that this can make sense in terms of the cost of the disruption to the community is if we make it a safe programming language: not “safe” as in “you can have no bugs,” but “safe” in terms of memory safety while also providing high performance and moving the programming model forward.</p>
+</blockquote>
 <p><a href="http://swift.org/about/">Swift.org</a>:</p>
-
 <blockquote>
 <p><strong>Safe.</strong> The most obvious way to write code should also behave in a safe manner. Undefined behavior is the enemy of safety, and developer mistakes should be caught before software is in production. Opting for safety sometimes means Swift will feel strict, but we believe that clarity saves time in the long run.</p>
 </blockquote>
-
 <p>Chris Lattner:</p>
-
 <blockquote>
-<p>One of the best and most annoying things about Objective-C is that it has C in it. This has been hugely important for Objective-C in practice, because if you run into a performance problem with objc_msgSend, you can always rewrite that algorithm in C. That&rsquo;s really, really, really important for Objective-C being successful in both in the days of NeXT on 16 MHz processors and also today for the low-level code that people are writing. That’s also one of the problems that makes it so that Objective-C and C are so intertwined that you can&rsquo;t actually take the C part out of Objective-C without producing a different language.</p>
+<p>One of the best and most annoying things about Objective-C is that it has C in it. This has been hugely important for Objective-C in practice, because if you run into a performance problem with objc_msgSend, you can always rewrite that algorithm in C. That's really, really, really important for Objective-C being successful in both in the days of NeXT on 16 MHz processors and also today for the low-level code that people are writing. That’s also one of the problems that makes it so that Objective-C and C are so intertwined that you can't actually take the C part out of Objective-C without producing a different language.</p>
 </blockquote>
-
 <p><a href="http://swift.org/about/">Swift.org</a>:</p>
-
 <blockquote>
 <p><strong>Fast.</strong> Swift is intended as a replacement for C-based languages (C, C++, and Objective-C). As such, Swift must be comparable to those languages in performance for most tasks. Performance must also be predictable and consistent, not just fast in short bursts that require clean-up later. There are lots of languages with novel features — being fast is rare.</p>
 </blockquote>
-
 <p>Chris Lattner:</p>
-
 <blockquote>
-<p>I think that the people in the core team, the other people working on Swift, have looked at many, many other languages. If you&rsquo;re a Haskell nerd, there is tons of Haskell concepts built in. Protocols really are just like a very similar Haskell construct, for example. It&rsquo;s really about taking the best ideas from where we can get them and assembling them together. One of the major goals of Swift is for it to be familiar-feeling, because that makes it easier for people to pick up and they&rsquo;re not fighting unnecessary barriers that just get in the way of adoption.</p>
-
-<p>It being familiar is actually a success in that way, and it&rsquo;s not a result of Swift trying to be Go or C# or whatever, it&rsquo;s about taking the best ideas from them and assembling them together. I think that you can probably pick a language and there&rsquo;s some good idea that came from them including D or Dart or Go or whatever. Swift does really draw from many, many different sources and it&rsquo;s really hard to tease them all out.</p>
+<p>I think that the people in the core team, the other people working on Swift, have looked at many, many other languages. If you're a Haskell nerd, there is tons of Haskell concepts built in. Protocols really are just like a very similar Haskell construct, for example. It's really about taking the best ideas from where we can get them and assembling them together. One of the major goals of Swift is for it to be familiar-feeling, because that makes it easier for people to pick up and they're not fighting unnecessary barriers that just get in the way of adoption.</p>
 </blockquote>
-
+<blockquote>
+<p>It being familiar is actually a success in that way, and it's not a result of Swift trying to be Go or C# or whatever, it's about taking the best ideas from them and assembling them together. I think that you can probably pick a language and there's some good idea that came from them including D or Dart or Go or whatever. Swift does really draw from many, many different sources and it's really hard to tease them all out.</p>
+</blockquote>
 <p><a href="http://swift.org/about/">Swift.org</a>:</p>
-
 <blockquote>
 <p><strong>Expressive.</strong> Swift benefits from decades of advancement in computer science to offer syntax that is a joy to use, with modern features developers expect. But Swift is never done. We will monitor language advancements and embrace what works, continually evolving to make Swift even better.</p>
 </blockquote>
-
-<hr />
-
+<hr>
 <p>Dominik Wagner:</p>
-
 <blockquote>
 <ul>
 <li>It should scale from App/UI language down to system language.</li>
 </ul>
 </blockquote>
-
 <p>Chris Lattner:</p>
-
 <blockquote>
-<p>Systems programming is, I think, the big next frontier, and I think that&rsquo;s where Swift can really distinguish itself from Java or other competitive languages, because among the widely used languages out there, there&rsquo;s really nothing that can unseat C or C++. Rust, for example, is an interesting language, but it hasn&rsquo;t gotten a lot of adoption yet and I think that Swift is more interesting than Rust in some of the higher-level application demands, but we&rsquo;ll see. Rust is a great language as well.</p>
-
-<p>I&rsquo;m really interested to see the Swift-for-systems-programming work get going. I think that&rsquo;ll be a couple of years out before it really comes together, but once it does, I think that Swift can really be the next big thing and I&rsquo;m excited about that. […]</p>
-
-<p>I don&rsquo;t think it&rsquo;s reasonable for me as a crazy man going around saying, &ldquo;Swift will someday do systems programming really well. You should remember that.&rdquo; I don&rsquo;t think that&rsquo;s a good way to spend time at the moment.</p>
-
-<p>When it does that, then the question becomes how do you make people aware of that and how do you get people to change their prior misconception? But at that point in time, you can have a very practical, “Look, you can do this, and this is so great, and now you get all the advantages of C but it&rsquo;s safe.” You can point to specific reasons why it&rsquo;s better.</p>
+<p>Systems programming is, I think, the big next frontier, and I think that's where Swift can really distinguish itself from Java or other competitive languages, because among the widely used languages out there, there's really nothing that can unseat C or C++. Rust, for example, is an interesting language, but it hasn't gotten a lot of adoption yet and I think that Swift is more interesting than Rust in some of the higher-level application demands, but we'll see. Rust is a great language as well.</p>
 </blockquote>
-
-<hr />
-
-<p>Dominik Wagner:</p>
-
-<ul>
-<li>It is compiled and static, but emphasized the REPL and playground face that makes it want to look like a great scripting solution. Which it isn&rsquo;t.</li>
-</ul>
-
-<p>Chris Lattner:</p>
-
 <blockquote>
-<p>I think the scripting side of it is maybe more straight-forward when the Swift community and the core team have time to deal with it, because they&rsquo;re talking about integrating regular expressions, multi-line string literals, and other features like that that people love from scripting languages. Those are big projects, but those are kind of well-known, I guess, and they will fit and drop right into the existing system that Swift provides.</p>
+<p>I'm really interested to see the Swift-for-systems-programming work get going. I think that'll be a couple of years out before it really comes together, but once it does, I think that Swift can really be the next big thing and I'm excited about that. […]</p>
 </blockquote>
-
-<hr />
-
+<blockquote>
+<p>I don't think it's reasonable for me as a crazy man going around saying, &ldquo;Swift will someday do systems programming really well. You should remember that.&rdquo; I don't think that's a good way to spend time at the moment.</p>
+</blockquote>
+<blockquote>
+<p>When it does that, then the question becomes how do you make people aware of that and how do you get people to change their prior misconception? But at that point in time, you can have a very practical, “Look, you can do this, and this is so great, and now you get all the advantages of C but it's safe.” You can point to specific reasons why it's better.</p>
+</blockquote>
+<hr>
 <p>Dominik Wagner:</p>
-
 <ul>
-<li>It seems to have been driven by the needs of the compiler and the gaps that needed to be filled for the static analyzer. Those seem to have been super-charged instead of catering to app developer&rsquo;s actual needs: efficient, hassle free, productive (iOS) App development.</li>
+<li>It is compiled and static, but emphasized the REPL and playground face that makes it want to look like a great scripting solution. Which it isn't.</li>
 </ul>
-
 <p>Chris Lattner:</p>
-
+<blockquote>
+<p>I think the scripting side of it is maybe more straight-forward when the Swift community and the core team have time to deal with it, because they're talking about integrating regular expressions, multi-line string literals, and other features like that that people love from scripting languages. Those are big projects, but those are kind of well-known, I guess, and they will fit and drop right into the existing system that Swift provides.</p>
+</blockquote>
+<hr>
+<p>Dominik Wagner:</p>
+<ul>
+<li>It seems to have been driven by the needs of the compiler and the gaps that needed to be filled for the static analyzer. Those seem to have been super-charged instead of catering to app developer's actual needs: efficient, hassle free, productive (iOS) App development.</li>
+</ul>
+<p>Chris Lattner:</p>
 <blockquote>
 <p>What we realized in the Swift 3 timeframe is that the thing app developers would benefit from the most was actually source stability. Who actually wants their application to be broken when they get a new version of Xcode? Really nobody, right?</p>
-
-<p>Halfway through the release, we pivoted and source stability became the goal, so I&rsquo;m really excited that when Swift 3.1 or Swift 4 comes out that it&rsquo;s still going to be able to build Swift 3 code, and even if there are minor changes that need to be made for one reason or another, that you can upgrade and you have great compatibility with your old code and you don&rsquo;t have to start the migrator before you can do anything. So it&rsquo;s going to be a great improvement for people&rsquo;s lives. […]</p>
-
-<p>I think it&rsquo;s also an interesting question of whether ABI stability will be done for Swift 4 because it&rsquo;s huge amount of work. The work is well underway of course, but it&rsquo;s also not clear to me that&rsquo;s really the most important thing for the Swift community. One of the things that Ted [Kremenek] has been a huge champion for, and I think he&rsquo;s right about, is that the most important thing right now for the Swift community is making the compiler more reliable, making the error messages better, making compile times faster, and making it scale better to large projects. We&rsquo;ll see how the rest of the Swift 4 schedule goes, but I wouldn&rsquo;t be surprised if, at some point, they decide that focusing on that is more important than nailing ABI stability in Swift 4.</p>
 </blockquote>
-
-<hr />
-
+<blockquote>
+<p>Halfway through the release, we pivoted and source stability became the goal, so I'm really excited that when Swift 3.1 or Swift 4 comes out that it's still going to be able to build Swift 3 code, and even if there are minor changes that need to be made for one reason or another, that you can upgrade and you have great compatibility with your old code and you don't have to start the migrator before you can do anything. So it's going to be a great improvement for people's lives. […]</p>
+</blockquote>
+<blockquote>
+<p>I think it's also an interesting question of whether ABI stability will be done for Swift 4 because it's huge amount of work. The work is well underway of course, but it's also not clear to me that's really the most important thing for the Swift community. One of the things that Ted [Kremenek] has been a huge champion for, and I think he's right about, is that the most important thing right now for the Swift community is making the compiler more reliable, making the error messages better, making compile times faster, and making it scale better to large projects. We'll see how the rest of the Swift 4 schedule goes, but I wouldn't be surprised if, at some point, they decide that focusing on that is more important than nailing ABI stability in Swift 4.</p>
+</blockquote>
+<hr>
 <p>Dominik Wagner:</p>
-
 <blockquote>
 <ul>
 <li>It is meant to offer progressive disclosure and be simple, to be used in playgrounds and learning. At the same time learning and reading through the Swift book and standard library is more akin to mastering C++. It is quite unforgiving, harsh, and complex.</li>
 </ul>
 </blockquote>
-
 <p>Chris Lattner:</p>
-
 <blockquote>
-<p>Here&rsquo;s the way I look at it. You’re unlikely to run into anybody that says that Swift is a simple language. Swift is a complicated language. It&rsquo;s not simple in the sense that Scheme is simple, for example. It&rsquo;s also not simple in terms of when you talk to an Objective-C developer, they&rsquo;ll often claim that Objective-C is simple, ignoring all the C parts.</p>
-
-<p>C itself is a very complicated, weird language. It&rsquo;s just that people don&rsquo;t typically use the weird parts, and so they perceive C as being very simple. The way I project this onto Swift is that the secret to Swift and being easy to learn, easy to use as a teaching vehicle, but also powerful enough to solve the problems that need to be solved, is that the complexity inherent in the language needs to be progressively disclosed.</p>
-
-<p>Imagine if someday Swift had inline assembly support, for example. Only really low-level systems people or really bit-twiddling assembly programmers would use this feature, everybody else would ignore it, and it would not increase the apparent complexity of the language to people who didn&rsquo;t know what it was. For a feature like that, the most important thing is to make the syntax clear so that when you run up into it, you discover it in somebody else&rsquo;s code, you know that you don&rsquo;t know what it does. So you say, &ldquo;That&rsquo;s interesting. I don&rsquo;t know what that is,&rdquo; and then you can do a search and find out, find the Stack Overflow article or whatever it is, to explain what this is to me. And then you can say, &ldquo;Oh, I get it,&rdquo; and I either care or I don’t, but at that point in time you can dive in and learn more information.</p>
-
-<p>Assembly is never something that a Swift Playgrounds person working through Learn to Code 3 would ever want to know about. I think that one of the secrets to Swift&rsquo;s success in terms of getting people on board and being really approachable for people at all levels is that, just like in Python, you can start with just print(“Hello world”). You can do the exact same thing in Swift, and with Swift you don&rsquo;t need the “\n” on your string. It&rsquo;s really just print(“Hello world”). From there you can then introduce new concepts, you can grow it out over time, and this really allows people to understand either the syntax of the language or the conceptual programming things that they&rsquo;re learning as they go. The design of Swift is really geared around that.</p>
-
-<p>What that means if you project onto the systems programming features, comparing Swift to Rust, for example, I think it&rsquo;s very likely that Swift will get features for memory-ownership control, which will allow really, really high performance: it will allow solving performance problems with ARC, for example. Unlike Rust, we can&rsquo;t make that be a core part of the type system that everybody has to use. It has to be something that sufficiently smart programmers, when they&rsquo;re solving a specific performance problem, end up using, or an embedded-kernel programmer might want to use, but an application developer can completely ignore. That’s really the challenge: it’s deploying similar type-system mechanics and other low-level language geekery to the problem, but do so in a way that is tasteful and allows most normal people to just ignore it.</p>
+<p>Here's the way I look at it. You’re unlikely to run into anybody that says that Swift is a simple language. Swift is a complicated language. It's not simple in the sense that Scheme is simple, for example. It's also not simple in terms of when you talk to an Objective-C developer, they'll often claim that Objective-C is simple, ignoring all the C parts.</p>
 </blockquote>
-
-<hr />
-
+<blockquote>
+<p>C itself is a very complicated, weird language. It's just that people don't typically use the weird parts, and so they perceive C as being very simple. The way I project this onto Swift is that the secret to Swift and being easy to learn, easy to use as a teaching vehicle, but also powerful enough to solve the problems that need to be solved, is that the complexity inherent in the language needs to be progressively disclosed.</p>
+</blockquote>
+<blockquote>
+<p>Imagine if someday Swift had inline assembly support, for example. Only really low-level systems people or really bit-twiddling assembly programmers would use this feature, everybody else would ignore it, and it would not increase the apparent complexity of the language to people who didn't know what it was. For a feature like that, the most important thing is to make the syntax clear so that when you run up into it, you discover it in somebody else's code, you know that you don't know what it does. So you say, &ldquo;That's interesting. I don't know what that is,&rdquo; and then you can do a search and find out, find the Stack Overflow article or whatever it is, to explain what this is to me. And then you can say, &ldquo;Oh, I get it,&rdquo; and I either care or I don’t, but at that point in time you can dive in and learn more information.</p>
+</blockquote>
+<blockquote>
+<p>Assembly is never something that a Swift Playgrounds person working through Learn to Code 3 would ever want to know about. I think that one of the secrets to Swift's success in terms of getting people on board and being really approachable for people at all levels is that, just like in Python, you can start with just print(“Hello world”). You can do the exact same thing in Swift, and with Swift you don't need the “\n” on your string. It's really just print(“Hello world”). From there you can then introduce new concepts, you can grow it out over time, and this really allows people to understand either the syntax of the language or the conceptual programming things that they're learning as they go. The design of Swift is really geared around that.</p>
+</blockquote>
+<blockquote>
+<p>What that means if you project onto the systems programming features, comparing Swift to Rust, for example, I think it's very likely that Swift will get features for memory-ownership control, which will allow really, really high performance: it will allow solving performance problems with ARC, for example. Unlike Rust, we can't make that be a core part of the type system that everybody has to use. It has to be something that sufficiently smart programmers, when they're solving a specific performance problem, end up using, or an embedded-kernel programmer might want to use, but an application developer can completely ignore. That’s really the challenge: it’s deploying similar type-system mechanics and other low-level language geekery to the problem, but do so in a way that is tasteful and allows most normal people to just ignore it.</p>
+</blockquote>
+<hr>
 <p>Dominik Wagner:</p>
-
 <blockquote>
-<p>It keeps defering the big wins to the future while it only offered a very labour intensive upgrade path. Without a steady revenue stream, many apps that would have just compiled fine if done in Objective‑C, either can&rsquo;t take advantage of new features of the devices easily, or had to be taken out of the App Store alltogether, because upgrading would be to costly. If you are working in the indie dev-scene, you probably know one of those stories as well. And while this is supposed to be over now, this damage has been done and is real.</p>
+<p>It keeps defering the big wins to the future while it only offered a very labour intensive upgrade path. Without a steady revenue stream, many apps that would have just compiled fine if done in Objective‑C, either can't take advantage of new features of the devices easily, or had to be taken out of the App Store alltogether, because upgrading would be to costly. If you are working in the indie dev-scene, you probably know one of those stories as well. And while this is supposed to be over now, this damage has been done and is real.</p>
 </blockquote>
-
 <p>Chris Lattner:</p>
-
 <blockquote>
-<p>I think it&rsquo;s definitely fair to say that in the Swift 1 and 2 timeframes, Swift as a language was changing really rapidly, and I could see why you&rsquo;d feel like you&rsquo;re on uneven footing and not really sure what the language is, much less what the idioms are. Swift 3 really is quite well baked out, and I expect that going forward the new things are going to be additive, not changing the existing patterns. I think the Swift community in general has gone through the same kind of thing that you&rsquo;re feeling there, where it&rsquo;s not really clear the one right way to solve the problem, and maybe there are different good ways to do it with different trade-offs that weren&rsquo;t clear to people. I think people are starting to understand that now.</p>
+<p>I think it's definitely fair to say that in the Swift 1 and 2 timeframes, Swift as a language was changing really rapidly, and I could see why you'd feel like you're on uneven footing and not really sure what the language is, much less what the idioms are. Swift 3 really is quite well baked out, and I expect that going forward the new things are going to be additive, not changing the existing patterns. I think the Swift community in general has gone through the same kind of thing that you're feeling there, where it's not really clear the one right way to solve the problem, and maybe there are different good ways to do it with different trade-offs that weren't clear to people. I think people are starting to understand that now.</p>
 </blockquote>
-
-<hr />
-
+<hr>
 <p>Dominik Wagner:</p>
-
 <blockquote>
-<p>Yes, Swift code might end up being more correct in the end. It also might alert you to edge cases early on. However, the flip side is it inhibits your creativity while writing. When starting out to program, the way I enjoy working, I don&rsquo;t yet know how the API is best expressed. So I try out different ways to express it until I find a sweet spot. Then I go back and unify accordingly.</p>
-
-<p>Swift actively distracts me in that endeavor by making me answer questions I really don&rsquo;t want to answer right now. Yes, stuff might be less correct in the meantime, but heck that is what I want during the design phase. Find my concept, sweet spot, iterate, pivot quickly.</p>
+<p>Yes, Swift code might end up being more correct in the end. It also might alert you to edge cases early on. However, the flip side is it inhibits your creativity while writing. When starting out to program, the way I enjoy working, I don't yet know how the API is best expressed. So I try out different ways to express it until I find a sweet spot. Then I go back and unify accordingly.</p>
 </blockquote>
-
+<blockquote>
+<p>Swift actively distracts me in that endeavor by making me answer questions I really don't want to answer right now. Yes, stuff might be less correct in the meantime, but heck that is what I want during the design phase. Find my concept, sweet spot, iterate, pivot quickly.</p>
+</blockquote>
 <p>Chris Lattner:</p>
-
 <blockquote>
 <p>Swift, in its name, kind of connotes a whole bunch of different things including performance. But really, to me, the most important aspect is programmer productivity.</p>
-
-<p>The idea that Swift is really optimizing for is not letting you pound out the code as fast as possible — it really is designed and optimized for, as a programmer, you can spend the least amount of time to get to a working program as fast as possible.</p>
-
-<p>Getting to a working program includes the time it takes to debug something, to iterate and develop and fight the type system, and all the other things you have to do. But that time you spend having to fight the type system or figure out optionals or things like that pays itself back because your program works more often. You&rsquo;re actually not spending time chasing own dangling-pointer bugs or, in the case of Objective-C, you get an unrecognized-selector error, whatever those kinds of bugs are, and Swift tries to help you by the language guiding you and helping design things. […]</p>
-
-<p>I think the challenge that Swift faces is because its focus is on building programs that work and that can be maintained and all the other things that we care about for large scale software, it’s maybe not the best solution for, “I want to pound out a quick script, use it once, and then throw it away.” In that case, you don&rsquo;t care about maintenance. You can fit all the code in your head. You don&rsquo;t care about good documentation or the other things that Swift encourages. That&rsquo;s a case where having a dynamic type system can be really liberating, so maybe that&rsquo;ll be a challenge for some people. But I think that as Swift gains ecosystems and libraries, its other advantages will be so great that hopefully it will be a good solution for those kinds of scripts as well.</p>
 </blockquote>
-
-<hr />
-
+<blockquote>
+<p>The idea that Swift is really optimizing for is not letting you pound out the code as fast as possible — it really is designed and optimized for, as a programmer, you can spend the least amount of time to get to a working program as fast as possible.</p>
+</blockquote>
+<blockquote>
+<p>Getting to a working program includes the time it takes to debug something, to iterate and develop and fight the type system, and all the other things you have to do. But that time you spend having to fight the type system or figure out optionals or things like that pays itself back because your program works more often. You're actually not spending time chasing own dangling-pointer bugs or, in the case of Objective-C, you get an unrecognized-selector error, whatever those kinds of bugs are, and Swift tries to help you by the language guiding you and helping design things. […]</p>
+</blockquote>
+<blockquote>
+<p>I think the challenge that Swift faces is because its focus is on building programs that work and that can be maintained and all the other things that we care about for large scale software, it’s maybe not the best solution for, “I want to pound out a quick script, use it once, and then throw it away.” In that case, you don't care about maintenance. You can fit all the code in your head. You don't care about good documentation or the other things that Swift encourages. That's a case where having a dynamic type system can be really liberating, so maybe that'll be a challenge for some people. But I think that as Swift gains ecosystems and libraries, its other advantages will be so great that hopefully it will be a good solution for those kinds of scripts as well.</p>
+</blockquote>
+<hr>
 <p>Dominik Wagner:</p>
-
 <blockquote>
 <p>So my opposition to Swift is very deep – on a fundamental design level. I see it as the devil on your shoulder, always fighting for your attention away from your problem domain, back to how everything is completely correct, or more swifty. And at the same time it is very unforgiving towards bigger change - ever tried to switch code from objects back to structs, or vice versa?</p>
 </blockquote>
-
 <p>Chris Lattner:</p>
-
 <blockquote>
-<p>I think that Swift really does encourage you down the right lines in some ways. But on the other hand, in other places where you&rsquo;re saying, &ldquo;Should something be a class or a struct?”, the trade-offs are more nuanced and it&rsquo;s a harder thing, and the Swift compiler can&rsquo;t just know what problem it is that you want to solve, so it can&rsquo;t help you with that.</p>
+<p>I think that Swift really does encourage you down the right lines in some ways. But on the other hand, in other places where you're saying, &ldquo;Should something be a class or a struct?”, the trade-offs are more nuanced and it's a harder thing, and the Swift compiler can't just know what problem it is that you want to solve, so it can't help you with that.</p>
 </blockquote>
-
-<hr />
-
+<hr>
 <p>Dominik Wagner:</p>
-
 <blockquote>
 <p>Just imagine a world where Objective‑C would have gotten the same amount of drive and attention Swift got from Apple? It is not a big leap to see that everyone would be better off right now. Swift just ended up being a jack of all trades, master of none.</p>
 </blockquote>
-
 <p>Chris Lattner:</p>
-
 <blockquote>
-<p>Eventually, [Swift] got to the point where it was far enough along that it was posing strategic questions. The strategic questions were of the form: We have Objective-C. Objective-C is a great language. It is probably directly responsible for the iPhone being successful because it&rsquo;s really high-performance. It allows you to get your job done. It supports high-level frameworks in a beautiful way. There&rsquo;s a ton of stuff to love about Objective-C, and while there are a few things that are ugly about it, some “@“ signs and semicolons and other stuff like that, we can make Objective-C better. The question was always: Why not just make Objective-C better? Why don&rsquo;t we just keep evolving Objective-C? Why do we want to face potential disruption in terms of moving the entire development community to something new?</p>
-
+<p>Eventually, [Swift] got to the point where it was far enough along that it was posing strategic questions. The strategic questions were of the form: We have Objective-C. Objective-C is a great language. It is probably directly responsible for the iPhone being successful because it's really high-performance. It allows you to get your job done. It supports high-level frameworks in a beautiful way. There's a ton of stuff to love about Objective-C, and while there are a few things that are ugly about it, some “@“ signs and semicolons and other stuff like that, we can make Objective-C better. The question was always: Why not just make Objective-C better? Why don't we just keep evolving Objective-C? Why do we want to face potential disruption in terms of moving the entire development community to something new?</p>
+</blockquote>
+<blockquote>
 <p>We kicked that around for a long time. We talked about both sides and we came to realize that, yes, we can and should make Objective-C better, and we continued to invest in Objective-C. […]</p>
-
-<p>We were talking about, okay, can we just make Objective-C better and can we feature-creep it to the language we want for the fullness of time? Because if we can, that would be much less disruptive to the community. We decided that, yeah, we can move Objective-C a lot closer to what we want so we can get automatic memory management with ARC, for example, but we can&rsquo;t ever take away the problems that lead to Objective-C being unsafe.</p>
-
-<p>One great example of that is ARC. It was really clear to me that if we were to get to memory safety, we had to have automatic memory management. I don&rsquo;t know if you want to go down the GC-versus-ARC rabbit hole or not, but ARC seemed like obviously the right model to me and to some other people. So we said, &ldquo;Okay, we need to get to an automatic memory management model.” Objective-C isn’t, because at the time it had the Obj-C garbage collector which had numerous problems, so we have to get Objective-C to be memory-managed. That&rsquo;s why ARC became a thing. It became a really high priority, and I think that it&rsquo;s a great example of something that, by itself, had a huge amount of value to the Objective-C community. Then, after that, we had similar other efforts like modules, for example, that was a huge thing that both improved build time but was also absolutely essential to enabling Swift code to eventually just say &ldquo;import UIKit&rdquo; and get everything.</p>
-
-<p>There&rsquo;s a number of things that rolled out over the years, and it was really funny at the time because the Objective-C developers externally and even internally to Apple always accused the compiler and language team of taking Objective-C on this random walk, and they didn&rsquo;t know how it all fit together, and where&rsquo;s the strategy, and why are you guys working on this and why aren&rsquo;t you working on some other syntactic sugar that I want? Of course, we could never tell them, but there was a good reason. […]</p>
-
-<p>It&rsquo;s really hard for people that haven’t been involved in the overall design of anything as complicated as Swift to be able to discern the difference between something that is the way it is out of an intentional decision, or the way it is as an accident of history. Now that the design process is public, I think that it becomes a lot easier for people to understand that difference.</p>
 </blockquote>
-
-<hr />
-
-<p>Chris Lattner:</p>
-
 <blockquote>
-<p>And I have to say this is the most effort I&rsquo;ve ever done to win over one Swift programmer.</p>
-
-<p>I&rsquo;m not sure if this is a scalable approach.</p>
+<p>We were talking about, okay, can we just make Objective-C better and can we feature-creep it to the language we want for the fullness of time? Because if we can, that would be much less disruptive to the community. We decided that, yeah, we can move Objective-C a lot closer to what we want so we can get automatic memory management with ARC, for example, but we can't ever take away the problems that lead to Objective-C being unsafe.</p>
 </blockquote>
-
+<blockquote>
+<p>One great example of that is ARC. It was really clear to me that if we were to get to memory safety, we had to have automatic memory management. I don't know if you want to go down the GC-versus-ARC rabbit hole or not, but ARC seemed like obviously the right model to me and to some other people. So we said, &ldquo;Okay, we need to get to an automatic memory management model.” Objective-C isn’t, because at the time it had the Obj-C garbage collector which had numerous problems, so we have to get Objective-C to be memory-managed. That's why ARC became a thing. It became a really high priority, and I think that it's a great example of something that, by itself, had a huge amount of value to the Objective-C community. Then, after that, we had similar other efforts like modules, for example, that was a huge thing that both improved build time but was also absolutely essential to enabling Swift code to eventually just say &ldquo;import UIKit&rdquo; and get everything.</p>
+</blockquote>
+<blockquote>
+<p>There's a number of things that rolled out over the years, and it was really funny at the time because the Objective-C developers externally and even internally to Apple always accused the compiler and language team of taking Objective-C on this random walk, and they didn't know how it all fit together, and where's the strategy, and why are you guys working on this and why aren't you working on some other syntactic sugar that I want? Of course, we could never tell them, but there was a good reason. […]</p>
+</blockquote>
+<blockquote>
+<p>It's really hard for people that haven’t been involved in the overall design of anything as complicated as Swift to be able to discern the difference between something that is the way it is out of an intentional decision, or the way it is as an accident of history. Now that the design process is public, I think that it becomes a lot easier for people to understand that difference.</p>
+</blockquote>
+<hr>
+<p>Chris Lattner:</p>
+<blockquote>
+<p>And I have to say this is the most effort I've ever done to win over one Swift programmer.</p>
+</blockquote>
+<blockquote>
+<p>I'm not sure if this is a scalable approach.</p>
+</blockquote>
 <p><em>*sigh*</em></p>
-
 <p>Sources:</p>
-
 <ul>
-<li>Dominik Wagner: <a href="http://rant.monkeydom.de/posts/2018/06/10/on-my-misalignment-with-apple_s-love-affair-with-swift">On my misalignment with Apple&rsquo;s love affair with Swift</a></li>
+<li>Dominik Wagner: <a href="http://rant.monkeydom.de/posts/2018/06/10/on-my-misalignment-with-apple_s-love-affair-with-swift">On my misalignment with Apple's love affair with Swift</a></li>
 <li>Chris Lattner: <a href="http://atp.fm/205-chris-lattner-interview-transcript">Transcript of ATP Episode #205</a>
 (<a href="http://atp.fm/205">Listen to the full episode</a>)</li>
 </ul>
@@ -286,9 +247,7 @@
 
       <footer class="footer">
         <ul class="footer-links">
-          <li>
-            <a href="https://stefan-lesser.com/index.xml" type="application/rss+xml" target="_blank"><i class="fas fa-rss"></i></a>
-          </li>
+          
           <li>
               <a href="https://twitter.com/stefanlesser" target="_blank"><i class="fab fa-twitter"></i></a>
           </li>
@@ -301,7 +260,7 @@
     </div>
 
     
-<script>
+<script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

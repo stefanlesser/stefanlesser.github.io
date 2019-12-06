@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stefan Lesser</title>
@@ -6,10 +6,31 @@
     <description>Recent content on Stefan Lesser</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Jun 2018 11:56:55 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 06 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stefan-lesser.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Structure and Behavior</title>
+      <link>https://stefan-lesser.com/2019/12/06/structure-and-behavior/</link>
+      <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stefan-lesser.com/2019/12/06/structure-and-behavior/</guid>
+      <description>Structure and Behavior In 2018 I wrote a vision document for a start-up I was planning to found shortly after (spoiler: I chose to not become a founder and am now an investor instead). The vision was grand: democratize programming and bring the power of computation to everyone, not just developers.
+Part of the vision document described the approach of how we wanted to tackle such a large challenge and cut it up into smaller pieces.</description>
+    </item>
+    
+    <item>
+      <title>Category Theory: Resources</title>
+      <link>https://stefan-lesser.com/notes/category-theory-resources/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stefan-lesser.com/notes/category-theory-resources/</guid>
+      <description>Category Theory: Resources I’m currently trying to fully understand category theory as it applies to programming. I’m not scared of math, however, I’m also not a mathematician, so I’m looking for an introduction that helps me build intuitive understanding first, and then goes all the way into the formalisms.
+Here are the resources I am currently reading that I found the most helpful so far:
+Resources Why Category Theory Matters • rs.</description>
+    </item>
     
     <item>
       <title>About</title>
@@ -17,7 +38,7 @@
       <pubDate>Wed, 20 Jun 2018 11:56:55 +0100</pubDate>
       
       <guid>https://stefan-lesser.com/about/</guid>
-      <description>Hi, I&amp;rsquo;m Stefan. A passionate programmer, application architect, and former Apple Technology Evangelist.</description>
+      <description>Hi, I&#39;m Stefan. A passionate programmer, application architect, and former Apple Technology Evangelist.</description>
     </item>
     
     <item>
@@ -26,7 +47,7 @@
       <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://stefan-lesser.com/2018/06/20/on-apples-love-affair-with-swift/</guid>
-      <description>I wanted to write a thoughtful article in response to Dominik Wagner&amp;rsquo;s &amp;ldquo;On my misalignment with Apple&amp;rsquo;s love affair with Swift&amp;rdquo;. During my research I realized, that Chris Lattner had already done this. Sort of. 17 months before Dominik published his piece.
+      <description>I wanted to write a thoughtful article in response to Dominik Wagner&#39;s &amp;ldquo;On my misalignment with Apple&#39;s love affair with Swift&amp;rdquo;. During my research I realized, that Chris Lattner had already done this. Sort of. 17 months before Dominik published his piece.
 Thanks to Marco Arment, Casey Liss, and John Siracusa for recording a fabulous &amp;ldquo;not an interview show&amp;rdquo; with Chris &amp;ldquo;extraordinary circumstance&amp;rdquo; Lattner back in January 2017, asking the right questions, and even publishing a transcript.</description>
     </item>
     

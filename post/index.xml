@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Stefan Lesser</title>
@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Stefan Lesser</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stefan-lesser.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Structure and Behavior</title>
+      <link>https://stefan-lesser.com/2019/12/06/structure-and-behavior/</link>
+      <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stefan-lesser.com/2019/12/06/structure-and-behavior/</guid>
+      <description>Structure and Behavior In 2018 I wrote a vision document for a start-up I was planning to found shortly after (spoiler: I chose to not become a founder and am now an investor instead). The vision was grand: democratize programming and bring the power of computation to everyone, not just developers.
+Part of the vision document described the approach of how we wanted to tackle such a large challenge and cut it up into smaller pieces.</description>
+    </item>
     
     <item>
       <title>On Apple&#39;s Love Affair With Swift</title>
@@ -17,7 +27,7 @@
       <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://stefan-lesser.com/2018/06/20/on-apples-love-affair-with-swift/</guid>
-      <description>I wanted to write a thoughtful article in response to Dominik Wagner&amp;rsquo;s &amp;ldquo;On my misalignment with Apple&amp;rsquo;s love affair with Swift&amp;rdquo;. During my research I realized, that Chris Lattner had already done this. Sort of. 17 months before Dominik published his piece.
+      <description>I wanted to write a thoughtful article in response to Dominik Wagner&#39;s &amp;ldquo;On my misalignment with Apple&#39;s love affair with Swift&amp;rdquo;. During my research I realized, that Chris Lattner had already done this. Sort of. 17 months before Dominik published his piece.
 Thanks to Marco Arment, Casey Liss, and John Siracusa for recording a fabulous &amp;ldquo;not an interview show&amp;rdquo; with Chris &amp;ldquo;extraordinary circumstance&amp;rdquo; Lattner back in January 2017, asking the right questions, and even publishing a transcript.</description>
     </item>
     

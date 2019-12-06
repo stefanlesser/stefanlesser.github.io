@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.60.1" />
+
+
+<title>Structure and Behavior - Stefan Lesser</title>
+<meta property="og:title" content="Structure and Behavior - Stefan Lesser">
+
+
+
+
+  
+
+
+
+
+<link rel="icon" href="https://stefan-lesser.com/images/" type="image/x-icon"/>
+<link rel="stylesheet" href="https://stefan-lesser.com/css/main.css" media="all">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400|Lato:400,400italic,700">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="https://stefan-lesser.com/" class="nav-title">
+    Stefan Lesser
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">5 min read</span>
+    
+
+    <h1 class="article-title">Structure and Behavior</h1>
+
+    
+    <span class="article-date">December 6, 2019</span>
+    
+
+    <div class="article-content">
+      <h1 id="structure-and-behavior">Structure and Behavior</h1>
+<p>In 2018 I wrote a vision document for a start-up I was planning to found shortly after (<em>spoiler: I chose to not become a founder and am now an investor instead</em>). The vision was grand: democratize programming and bring the power of computation to everyone, not just developers.</p>
+<p>Part of the vision document described the approach of how we wanted to tackle such a large challenge and cut it up into smaller pieces. In a section titled <em>&ldquo;How to (not) democratize programming&rdquo;</em> I wrote:</p>
+<hr>
+<h3 id="how-to-model-modeling">How to Model Modeling</h3>
+<p>To find a better mental model for describing complex interactive systems, we can break down the process into smaller steps with increasing complexity:</p>
+<ol>
+<li><strong>Modeling static structure.</strong> We can significantly reduce complexity by ignoring systems with dynamic behavior and focus on modeling static structure first. These systems can still exhibit behavior, it is just that the behavior is not part of the modeling process, but predefined and implemented with classic techniques instead. <em>Structure can be modified by the user, behavior only by the developer.</em></li>
+<li><strong>Modeling dynamic behavior.</strong> With better understanding of how to visualize and interact with static structure, we can move on and apply our gained knowledge to modeling dynamic behavior as well. This adds change over time and encoding heuristics as additional dimensions and will introduce new complexities for visualizations and interactions. <em>Once achieved, both structure and behavior can be modified by the user.</em></li>
+<li><strong>Modeling the modeling process.</strong> The final step is to enable modeling of systems that can be used to model systems themselves — building a tool to build tools. This can unlock additional efficiencies with techniques that resemble meta-programming in classic programming languages.</li>
+</ol>
+<hr>
+<p>The core idea behind this was born out of the frustration with the current state of apps, which are mostly just more or less fancy views on data. Users can navigate the data in predefined ways and manipulation is limited, if at all possible.</p>
+<p>Think of all the shopping or traveling apps that let you browse a catalog of products you can order or book. These apps live in a step 0 I didn't mention above — both structure and behavior are completely specified by the developer; the user is merely allowed to navigate and perhaps search and filter the dataset, hopefully ending in a sale of some kind.</p>
+<p>There's nothing wrong with such apps. We just wanted to go further and give everyone the power to design their own structure, then their own behaviors, and ultimately end up with a full-blown tool to build your own systems and tools, hopefully simplifying each step significantly along the way.</p>
+<p>Great, so I broke down a giant challenge into three huge ones. It might not have helped us much getting anywhere closer to building anything. It did, however, put me on an unexpected path that produced some surprising insights.</p>
+<h3 id="making-assumptions">Making assumptions</h3>
+<p>When programmers think about the future of programming, it is only natural to start from where we are now. We make assumptions. Some of them automatically, unconsciously, without reflection. For instance, that there has to be a programming language. And that this language will be used to specify behavior.</p>
+<p>But I moved that into the second step. That allowed me to free myself from the assumptions and restrictions that come with thinking about modeling dynamic behavior. Instead, I became obsessed with thinking about structure.</p>
+<h3 id="structuring-data">Structuring data</h3>
+<p>In my mind step 1 was a better way to model the structure of data. In an abstract sense, this seems to be what most non-programmers want to do with computers: deal with data, visualize and manipulate it.</p>
+<p>Think of Filemaker or Microsoft Access, although of course, bringing these examples up will frame your thinking in a way that has little to do with what we were up to. Our goal was to help people without a programming background to design data models without having to know anything about data models, databases, schemas, keys, relationships, files, formats, types, etc.</p>
+<p>Think of somebody who doesn't have a technical background, yet still uses a computer or smart phone to take notes. This person makes seemingly simple decisions:</p>
+<ul>
+<li>Where do I put this idea?</li>
+<li>Do I create a new note for it?</li>
+<li>Do I append it to an existing note?</li>
+<li>Where in the existing note do I put it?</li>
+<li>Do I create a new headline for it?</li>
+<li>Do I rearrange the content of the existing note?</li>
+<li>Do I split it up into several smaller notes?</li>
+</ul>
+<p>They might not know what a data model is, but they are manipulating one right there.
+Sure, this is not anywhere close to what we programmers think of when we read &ldquo;data model&rdquo;.
+And that's exactly the point.</p>
+<h3 id="abolishing-ceremony">Abolishing ceremony</h3>
+<p>In programming (or database) land, we've created lots of ceremony around data: schemas, types, validation, integrity, transactions, and much more.<br>
+Some of these are necessary to make it work.<br>
+Some of these are useful for the use cases we defined.<br>
+Some of these are helpful to prevent us from making mistakes that could lead to data loss.</p>
+<p>Well, <em>are</em> they? Or <em>were</em> they?<br>
+Now that we all carry pretty capable supercomputers in our pockets, maybe it's time to question some of our assumptions.</p>
+<p>What if all that ceremony was optional?<br>
+How could you modify the structure of data without it?<br>
+How could you still do useful stuff with that data?<br>
+And what is <em>structure</em> anyway?</p>
+<p>And so I grabbed my spelunking gear and climbed down into a massive rabbit hole…</p>
+
+    </div>
+  </article>
+
+  
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          
+          <li>
+              <a href="https://twitter.com/stefanlesser" target="_blank"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+              <a href="https://www.linkedin.com/in/stefanlesser/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-7357192-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  </body>
+</html>
+

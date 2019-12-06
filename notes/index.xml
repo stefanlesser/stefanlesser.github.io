@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on Stefan Lesser</title>
+    <link>https://stefan-lesser.com/notes/</link>
+    <description>Recent content in Notes on Stefan Lesser</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://stefan-lesser.com/notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Category Theory: Resources</title>
+      <link>https://stefan-lesser.com/notes/category-theory-resources/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stefan-lesser.com/notes/category-theory-resources/</guid>
+      <description>Category Theory: Resources I’m currently trying to fully understand category theory as it applies to programming. I’m not scared of math, however, I’m also not a mathematician, so I’m looking for an introduction that helps me build intuitive understanding first, and then goes all the way into the formalisms.
+Here are the resources I am currently reading that I found the most helpful so far:
+Resources Why Category Theory Matters • rs.</description>
+    </item>
+    
+  </channel>
+</rss>

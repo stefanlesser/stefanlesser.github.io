@@ -1,9 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://stefan-lesser.com/post/</loc>
+    <lastmod>2019-12-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stefan-lesser.com/</loc>
+    <lastmod>2019-12-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stefan-lesser.com/2019/12/06/structure-and-behavior/</loc>
+    <lastmod>2019-12-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stefan-lesser.com/notes/category-theory-resources/</loc>
+    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stefan-lesser.com/notes/</loc>
+    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://stefan-lesser.com/about/</loc>
+    <lastmod>2018-06-20T11:56:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stefan-lesser.com/page/</loc>
     <lastmod>2018-06-20T11:56:55+01:00</lastmod>
   </url>
   
@@ -14,30 +44,10 @@
   
   <url>
     <loc>https://stefan-lesser.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stefan-lesser.com/page/</loc>
-    <lastmod>2018-06-20T11:56:55+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stefan-lesser.com/post/</loc>
-    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stefan-lesser.com/</loc>
-    <lastmod>2018-06-20T11:56:55+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://stefan-lesser.com/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
