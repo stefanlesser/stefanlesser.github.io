@@ -1,7 +1,7 @@
 baseURL = "https://stefan-lesser.com/"
 languageCode = "en-us"
 title = "Stefan Lesser"
-theme = "lithium"
+theme = "hugo-lithium-theme"
 googleAnalytics = "UA-7357192-1"
 
 tags = ["blog"]
