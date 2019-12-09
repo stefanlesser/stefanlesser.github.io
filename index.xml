@@ -6,10 +6,21 @@
     <description>Recent content on Stefan Lesser</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stefan-lesser.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Free Your Mind</title>
+      <link>https://stefan-lesser.com/2019/12/10/free-your-mind/</link>
+      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stefan-lesser.com/2019/12/10/free-your-mind/</guid>
+      <description>Part 2 of my Universal Structure blog chain. Start here.
+ As I was thinking about structure and data models, I wondered about how we make decisions every day, almost effortlessly, which are fundamentally data model manipulations:
+ Structuring emails or notes with headings and by moving paragraphs of text around Using lists and tables and knowing which items belong together and how to order them Creating graphs and visualizations to express certain points with &amp;ldquo;pictures worth more than a thousand words&amp;rdquo; Naming documents, files, and folders in a way sensible to us Filing away documents, emails, notes, and tasks into complex folder hierarchies Building these hierarchies in the first place and adapting them over time as our needs change  You don&#39;t have to be a computer scientist or software engineer to do any of these things.</description>
+    </item>
     
     <item>
       <title>Structure and Behavior</title>
@@ -17,7 +28,8 @@
       <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://stefan-lesser.com/2019/12/06/structure-and-behavior/</guid>
-      <description>Structure and Behavior In 2018 I wrote a vision document for a start-up I was planning to found shortly after (spoiler: I chose to not become a founder and am now an investor instead). The vision was grand: democratize programming and bring the power of computation to everyone, not just developers.
+      <description>Part 1 of my blog chain Universal Structure.
+ In 2018 I wrote a vision document for a start-up I was planning to found shortly after (spoiler: I chose to not become a founder and am now an investor instead). The vision was grand: democratize programming and bring the power of computation to everyone, not just developers.
 Part of the vision document described the approach of how we wanted to tackle such a large challenge and cut it up into smaller pieces.</description>
     </item>
     
