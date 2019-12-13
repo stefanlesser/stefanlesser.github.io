@@ -7,6 +7,10 @@ googleAnalytics = "UA-7357192-1"
 tags = ["blog"]
 features = ["blog", "google analytics"]
 min_version = 0.15
+rssLimit = 20
+
+[markup.goldmark.renderer]
+    unsafe = true
 
 [author]
     name = "Stefan Lesser"

@@ -1,0 +1,41 @@
+---
+title: Democratize Programming
+date: 2019-12-13
+categories:
+- Beyond Code
+---
+
+At the end of 2016, after I had left Apple, and half-way into a year of traveling, I thought about what I wanted to tackle next and wrote down[^1] some big ideas that got me excited. As [part of a larger document](#manifesto2017) I wrote:
+
+> **Make Developing Software Accessible to Everyone** \
+> *aka "Fix software development"* \
+> A lot has changed in software development over the last fifty years, but we still struggle with the same complexities. Our tools got so much better, but our apps still crash, bugs are still hard to find, and codebases still hard to maintain. We invented countless programming languages, but we're still typing letters on keyboards chaining little symbols into complex hierarchies using text editors. Today, regular people can become authors, photographers, movie directors, or music producers. We created tools that lowered the barrier of entry for everyone. If we can do it for them, we can do it for us. However, to do so, we need to fundamentally re-think the way we produce software. We need to challenge core assumptions to make programming easier, faster, and more accessible. Some tools we invented are more effective than others. What are these tools? How can we measure how effective they are? What can we learn from them to create even better tools? How can we write less code? Do we have to write code at all?
+
+People like Doug Engelbart, Alan Kay, and Steve Jobs, who wanted to [augment human intellect](#augmenting-human-intellect) or build [a bicycle for the mind](#bicycle-of-the-mind), hugely influenced my thinking. If I have to [pick a side](#two-philosophies), I believe that instead of trying to ignore or even remove humanity from the equation, technology should help people become more effective at what they want to accomplish. I am less interested in automating away tedious tasks (though I am not opposed to it either and thus happy for others to work on that).
+
+With the world around us growing more complex than ever — partly because of the technologies we keep introducing, it’s important to not leave the power of building complex systems in the hands of a few, who happen to have gone through the steep learning curve of becoming programmers. 
+
+Modeling complex systems is not a self-serving activity, but a means to understand, identify and solve problems, create solutions for them, and share our knowledge. Everybody should be able to participate in that process regardless of their profession, using technology as a tool to help them learn and create in their own domains — augmenting human intellect, not replacing it. Taking advantage of computational powers, building your own systems and tools is a meta-skill everybody should be entitled to use, not just professional programmers.
+
+Since I wrote that document, I have spent many waking hours reading, learning, and thinking about what the important ingredients could be to make this happen. I looked at and was inspired by work in computer science, software engineering, math, complexity theory, [cognitive science]({{< ref "structure-and-behavior" >}}), art, design, and business. Here I want to share some of the conclusions I came to for a more humane future of programming in a blog chain going _Beyond Code_.
+
+---
+
+*To be continued…*
+
+## Further Reading
+
+* <a name="manifesto2017"></a>Stefan Lesser: **What to Build or Fix in 2017** \
+	I wrote this text at the end of 2016 to document my thoughts and motivation for possible projects in 2017.
+	<https://github.com/stefanlesser/recurse/blob/master/manifesto2017.md>
+* <a name="augmenting-human-intellect"></a>Douglas Engelbart: **Augmenting Human Intellect: A Conceptual Framework** \
+	Douglas Engelbart outlines his vision to use computers not just for automation, but to augment human intelligence.
+	<http://dougengelbart.org/content/view/138/000/>
+* <a name="bicycle-of-the-mind"></a>Steven Sinofsky: **Bicycle for the mind** \
+	Steve Jobs remembers an article from *Scientific American* and creates one of the brilliant metaphors he became known for.
+	<https://medium.learningbyshipping.com/bicycle-121262546097>
+* <a name="two-philosophies"></a>Ben Thompson: **Tech's Two Philosophies** \
+	Ben Thompson contrasts two philosophies in Big Tech: Google and Facebook vs. Microsoft and Apple.
+	<https://stratechery.com/2018/techs-two-philosophies/>
+	
+[^1]: I didn't understand it like that at the time, but I turned to writing as thinking, which I will later discover as a powerful technique to structure my thoughts.
