@@ -6,10 +6,22 @@
     <description>Recent content on Stefan Lesser</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stefan-lesser.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Democratize Programming</title>
+      <link>https://stefan-lesser.com/2019/12/13/democratize-programming/</link>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stefan-lesser.com/2019/12/13/democratize-programming/</guid>
+      <description>At the end of 2016, after I had left Apple, and half-way into a year of traveling, I thought about what I wanted to tackle next and wrote down1 some big ideas that got me excited. As part of a larger document I wrote:
+ Make Developing Software Accessible to Everyone
+aka &amp;ldquo;Fix software development&amp;rdquo;
+A lot has changed in software development over the last fifty years, but we still struggle with the same complexities.</description>
+    </item>
     
     <item>
       <title>Free Your Mind</title>

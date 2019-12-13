@@ -3,22 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://stefan-lesser.com/categories/</loc>
-    <lastmod>2019-12-10T00:00:00+00:00</lastmod>
+    <loc>https://stefan-lesser.com/categories/beyond-code/</loc>
+    <lastmod>2019-12-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://stefan-lesser.com/2019/12/10/free-your-mind/</loc>
-    <lastmod>2019-12-10T00:00:00+00:00</lastmod>
+    <loc>https://stefan-lesser.com/categories/</loc>
+    <lastmod>2019-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stefan-lesser.com/2019/12/13/democratize-programming/</loc>
+    <lastmod>2019-12-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://stefan-lesser.com/post/</loc>
-    <lastmod>2019-12-10T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://stefan-lesser.com/</loc>
+    <lastmod>2019-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stefan-lesser.com/2019/12/10/free-your-mind/</loc>
     <lastmod>2019-12-10T00:00:00+00:00</lastmod>
   </url>
   
