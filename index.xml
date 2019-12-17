@@ -6,10 +6,20 @@
     <description>Recent content on Stefan Lesser</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stefan-lesser.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Art of Abstraction</title>
+      <link>https://stefan-lesser.com/2019/12/17/the-art-of-abstraction/</link>
+      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stefan-lesser.com/2019/12/17/the-art-of-abstraction/</guid>
+      <description>In a recent discussion on The Future of Coding Slack my understanding of abstraction was challenged. As I currently write about categorization, this was a good reason to reflect on what abstraction means to me. The word gets thrown around lightly in technical discussions. We&#39;re susceptible to just assume that our intuitive understanding of a word is sufficient to wield it as a weapon in debate.
+What is abstraction? My understanding of the process of abstraction is that it is fundamentally about removing ignoring detail.</description>
+    </item>
     
     <item>
       <title>Democratize Programming</title>
