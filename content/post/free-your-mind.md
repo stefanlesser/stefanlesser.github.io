@@ -49,4 +49,4 @@ Soon I would discover that both linguists and programmers think about shockingly
 
 ---
 
-*to be continued…*
+[Next article in this blog chain _Universal Structure_]({{< ref "categories-everywhere" >}})
