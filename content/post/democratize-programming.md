@@ -5,6 +5,8 @@ categories:
 - Beyond Code
 ---
 
+*Part 1 of my blog chain _Beyond Code_.*
+
 At the end of 2016, after I had left Apple, and half-way into a year of traveling, I thought about what I wanted to tackle next and wrote down[^1] some big ideas that got me excited. As [part of a larger document](#manifesto2017) I wrote:
 
 > **Make Developing Software Accessible to Everyone** \
@@ -21,7 +23,7 @@ Since I wrote that document, I have spent many waking hours reading, learning, a
 
 ---
 
-*To be continued…*
+[Next article in this blog chain _Beyond Code_.]({{< ref "a-future-of-programming" >}})
 
 ## Further Reading
 
