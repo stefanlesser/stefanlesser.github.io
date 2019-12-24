@@ -6,10 +6,20 @@
     <description>Recent content on Stefan Lesser</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stefan-lesser.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Future of Programming</title>
+      <link>https://stefan-lesser.com/2019/12/24/a-future-of-programming/</link>
+      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stefan-lesser.com/2019/12/24/a-future-of-programming/</guid>
+      <description>Part 2 of my blog chain Beyond Code. Start here.
+ The A Future of Programming There are so many directions to explore to democratize programming. It&#39;s useful to be opinionated, make some choices upfront, and shrink the solution space a bit. You might disagree with my choices here, and that&#39;s ok. I write them down so we can find out quickly. That doesn&#39;t mean other directions are wrong or less promising, this is just the direction I am headed.</description>
+    </item>
     
     <item>
       <title>Categories Everywhere</title>
@@ -38,7 +48,8 @@ What is abstraction? My understanding of the process of abstraction is that it i
       <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://stefan-lesser.com/2019/12/13/democratize-programming/</guid>
-      <description>At the end of 2016, after I had left Apple, and half-way into a year of traveling, I thought about what I wanted to tackle next and wrote down1 some big ideas that got me excited. As part of a larger document I wrote:
+      <description>Part 1 of my blog chain Beyond Code.
+At the end of 2016, after I had left Apple, and half-way into a year of traveling, I thought about what I wanted to tackle next and wrote down1 some big ideas that got me excited. As part of a larger document I wrote:
  Make Developing Software Accessible to Everyone
 aka &amp;ldquo;Fix software development&amp;rdquo;
 A lot has changed in software development over the last fifty years, but we still struggle with the same complexities.</description>

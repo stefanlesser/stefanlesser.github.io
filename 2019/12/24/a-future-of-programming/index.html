@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.60.1" />
+
+
+<title>A Future of Programming - Stefan Lesser</title>
+<meta property="og:title" content="A Future of Programming - Stefan Lesser">
+
+
+
+
+  
+
+
+
+
+<link rel="icon" href="https://stefan-lesser.com/images/" type="image/x-icon"/>
+<link rel="stylesheet" href="https://stefan-lesser.com/css/main.css" media="all">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400|Lato:400,400italic,700">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="https://stefan-lesser.com/" class="nav-title">
+    Stefan Lesser
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">5 min read</span>
+    
+
+    <h1 class="article-title">A Future of Programming</h1>
+
+    
+    <span class="article-date">December 24, 2019</span>
+    
+
+    <div class="article-content">
+      <p>Part 2 of my blog chain <em>Beyond Code</em>. Start <a href="https://stefan-lesser.com/2019/12/13/democratize-programming/">here</a>.</p>
+<hr>
+<h1 id="the-a-future-of-programming"><del>The</del> A Future of Programming</h1>
+<p>There are so many directions to explore to <a href="https://stefan-lesser.com/2019/12/13/democratize-programming/">democratize programming</a>. It's useful to be opinionated, make some choices upfront, and shrink the solution space a bit. You might disagree with my choices here, and that's ok. I write them down so we can find out quickly. That doesn't mean other directions are wrong or less promising, this is just the direction I am headed.</p>
+<p>Read these principles as &ldquo;one is more valuable than the other&rdquo; — both sides have value, I just value one more than the other.</p>
+<h2 id="audience">Audience</h2>
+<h3 id="augment-human-intellect--replace-human-intellect">Augment human intellect &gt; replace human intellect</h3>
+<p><a href="#augmenting-human-intellect"><em>Augment</em> human intellect</a>. Don’t try <a href="#two-philosophies">to replace it</a>.</p>
+<h3 id="tools-for-everyone--better-tools-for-experts">Tools for everyone &gt; better tools for experts</h3>
+<p>Everyone can create. Enable everyone, especially people from other domains outside programming, to take advantage of computation. Empower people to build their own systems and tools, giving them more of the powers that have only been available to programmers through writing code, so they can augment their own workflows in their own areas of expertise.</p>
+<h3 id="less-but-better--complete">Less, but better &gt; complete</h3>
+<p>A small tool that works well for a single domain is more valuable than a generic tool that tries to be everything to everyone. A working solution that delivers value to a small group of people is valuable, even if it is not as expressive as a general programming language.</p>
+<h3 id="workflows--apps">Workflows &gt; apps</h3>
+<p>Blur the line between developers and users. Enable people to modify the systems and tools they use and adapt them to their needs. Crack open the monolithic app model and expose finer-grained components and workflows to be combined in new ways. Apps can still coexist as a delivery mechanism for pre-packaged workflows that can be re-designed and potentially even integrated across different apps.</p>
+<h3 id="learn-the-craft--write-code">Learn the craft &gt; write code</h3>
+<p>Help people discover the craft of modeling by letting them build, explore, manipulate, and understand complex interactive systems in an approachable and entertaining way. Perhaps, writing code as translating a mental model of a complex system into a representation a computer can understand is part of that. Perhaps it's not.</p>
+<h2 id="experience">Experience</h2>
+<h3 id="explore--experiment--plan--implement">Explore &amp; experiment &gt; plan &amp; implement</h3>
+<p>Encourage exploration and experiments. Don’t expect people to already know what they want or need, let them discover through playful exploration. <em>Creation is discovery.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></em></p>
+<h3 id="empathy--proficiency">Empathy &gt; Proficiency</h3>
+<p>Make mistakes impossible (e.g. no syntax or type errors) or easy to revert (e.g. undo and redo, history graphs, time travel debugging). Move technicalities and implementation details (e.g. memory management) out of the way, but keep them accessible. Treat failure states as teaching opportunities.</p>
+<h3 id="peoplecentric--systemcentric">People-centric &gt; System-centric</h3>
+<p>People should not have to adapt to the tool; the tool needs to adapt to people. If using the tool effectively is only possible if you understand how the tool works, it needs more work until it works more like you think.</p>
+<h3 id="direct-visual-manipulation--think-like-a-computer">Direct (visual) manipulation &gt; Think like a computer</h3>
+<p>Leave the limits of text-based editing behind. Design and build complex systems by exploring and manipulating visual, interactive representations of structure and behavior in real-time with immediate feedback. Instead of simulating algorithmic computation in our heads, leverage our unique abilities of embodied cognition.</p>
+<h3 id="immediate-feedback--distinct-modes">Immediate feedback &gt; Distinct modes</h3>
+<p>Blur the lines between designing, building, and running the system; ideally there is no distinction between these modes. Minimize perceptible waiting times (like there are today for building or compiling). The system runs continuously and is modified directly — like shaping a digital material in real-time.</p>
+<h3 id="declarative--imperative">Declarative &gt; Imperative</h3>
+<p>Describe <em>what</em> instead of <em>how</em>; prefer declarative over imperative ways to describe aspects of a system. Turn the how into an implementation detail. Leave extension points for different implementations.</p>
+<h3 id="value-peoples-privacy">Value people's privacy</h3>
+<p>Use as little data as necessary. Leave people in full control over their data. If you need to store user data, prefer local storage over servers, only store it encrypted, with only the user being able to decrypt it. Use end-to-end encryption. Avoid logging and analytics, and use <a href="#differential-privacy">differential privacy</a> if you do.</p>
+<h2 id="technology">Technology</h2>
+<h3 id="mobile--desktop">Mobile &gt; Desktop</h3>
+<p>Design for mobile first: small screens and touch interfaces on phones and tablets. Leverage mobile device capabilities. It should be possible to design complex systems on a smart phone. It’s ok if it’s more comfortable on a big screen, but there's not reason why it shouldn't be possible on a small screen.</p>
+<h3 id="distributed--centralized">Distributed &gt; Centralized</h3>
+<p>Prefer local over remote resources. Don’t push computation out to the network if it can be done locally. Enable as much functionality as possible offline, without access to a network. Consider performance and respect device limitations like connectivity and battery usage.</p>
+<h3 id="native--web">Native &gt; Web</h3>
+<p>Prefer fewer abstraction layers and develop as close to the hardware as feasible. Typical web applications are built on a complex stack of OS, web browser, language runtime, and libraries that introduce complexity, and with it a broader attack surface for security and performance issues. Keep the stack small. Remove dependencies when you can and it is economic to do so.</p>
+<h3 id="platformspecific--crossplatform">Platform-specific &gt; Cross-platform</h3>
+<p>Respect people's choice for a platform and deliver an optimized experience deeply integrated into that platform. Leverage platform-specific capabilities to provide a better experience.</p>
+<hr>
+<p><em>To be continued…</em></p>
+<h2 id="further-reading">Further reading</h2>
+<ul>
+<li><a name="augmenting-human-intellect"></a>Douglas Engelbart: <strong>Augmenting Human Intellect: A Conceptual Framework</strong><br>
+Douglas Engelbart outlines his vision to use computers not just for automation, but to augment human intelligence.
+<a href="http://dougengelbart.org/content/view/138/000/">http://dougengelbart.org/content/view/138/000/</a></li>
+<li><a name="two-philosophies"></a>Ben Thompson: <strong>Tech's Two Philosophies</strong><br>
+Ben Thompson contrasts two philosophies in Big Tech: Google and Facebook vs. Microsoft and Apple.
+<a href="https://stratechery.com/2018/techs-two-philosophies/">https://stratechery.com/2018/techs-two-philosophies/</a></li>
+<li><a name="inventing-on-principle"></a>Bret Victor: <strong>Inventing on Principle</strong><br>
+<a href="http://worrydream.com/#!/InventingOnPrinciple">http://worrydream.com/#!/InventingOnPrinciple</a></li>
+<li><a name="differential-privacy"></a>Wikipedia: <strong>Differential Privacy</strong><br>
+<a href="https://en.m.wikipedia.org/wiki/Differential_privacy">https://en.m.wikipedia.org/wiki/Differential_privacy</a></li>
+</ul>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Many breakthroughs were accidents, discovered along a path that was supposed to lead somewhere else. That's why creators need immediate connection with what they are creating and a tight feedback loop that enables them to see changes without delay.<br>
+–&gt; <a href="#inventing-on-principle">Inventing on Principle, Bret Victor</a><a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#8617;</a></p>
+</li>
+</ol>
+</section>
+
+    </div>
+  </article>
+
+  
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          
+          <li>
+              <a href="https://twitter.com/stefanlesser" target="_blank"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+              <a href="https://www.linkedin.com/in/stefanlesser/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-7357192-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  </body>
+</html>
+
