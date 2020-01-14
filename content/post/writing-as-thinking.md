@@ -5,6 +5,10 @@ categories:
 - Creative Productivity
 ---
 
+Part 1 of my _Creative Productivity_ blog chain.
+
+---
+
 It crossed my mind to revive this blog with a meta post about writing. But there are too many blogs out there that haven't published anything in a long time, and the last post describes in great detail how the author plans to focus more on writing and finally publish more content on a regular schedule. Not where I want to end up…
 
 ## Tricking myself into writing
@@ -47,3 +51,7 @@ Publishing your thoughts on the internet has a practical benefit: it's easy to p
 You are opening yourself up for opportunities that other people who think about similar things can find you, read about your ideas, and connect with you. Maybe you even get a few more people excited about what you are exited about. Sure, the chances are small, but still infinitely larger than zero, if you don't share anything at all.
 
 There are too many good reasons to write and share your thoughts and not enough good reasons to keep them all to yourself. Your ideas will evolve so much faster into something so much better, if you connect with other people, listen to their feedback, and constantly refine your ideas and how you express them.
+
+---
+
+[Next article in this blog chain _Creative Productivity_.]({{< ref "blog-chains" >}})
