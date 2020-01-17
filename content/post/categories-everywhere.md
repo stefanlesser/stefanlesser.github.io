@@ -60,7 +60,9 @@ As it turns out, brains do not at all work like computers. And that's exactly wh
 
 ---
 
-*To be continued…*
+[Next article in this blog chain _Universal Structure_.]({{< ref "categories-structure-our-world" >}})
+
+---
 
 ## References
 
