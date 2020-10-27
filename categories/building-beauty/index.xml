@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Building Beauty on Stefan Lesser</title>
+    <link>https://stefan-lesser.com/categories/building-beauty/</link>
+    <description>Recent content in Building Beauty on Stefan Lesser</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://stefan-lesser.com/categories/building-beauty/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to adopt Christopher Alexander’s ideas in the software industry</title>
+      <link>https://stefan-lesser.com/2020/10/27/how-to-adopt-christopher-alexanders-ideas-in-the-software-industry/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stefan-lesser.com/2020/10/27/how-to-adopt-christopher-alexanders-ideas-in-the-software-industry/</guid>
+      <description>What does it mean to apply or transfer Christopher Alexander’s ideas to the world of software?
+This is an early draft, written in one go, that I quickly wanted to publish for early feedback and as part of my current studies in the Beautiful Software Initiative. Please get in touch if you have feedback.
+I can see at least seven different layers where Alexander’s theory of centers and wholeness and a generative unfolding process applies in subtly different ways to the various efforts involved in building software.</description>
+    </item>
+    
+  </channel>
+</rss>

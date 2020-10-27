@@ -6,10 +6,17 @@
     <description>Recent content in Posts on Stefan Lesser</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jan 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://stefan-lesser.com/post/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://stefan-lesser.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to adopt Christopher Alexander’s ideas in the software industry</title>
+      <link>https://stefan-lesser.com/2020/10/27/how-to-adopt-christopher-alexanders-ideas-in-the-software-industry/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stefan-lesser.com/2020/10/27/how-to-adopt-christopher-alexanders-ideas-in-the-software-industry/</guid>
+      <description>What does it mean to apply or transfer Christopher Alexander’s ideas to the world of software?
+This is an early draft, written in one go, that I quickly wanted to publish for early feedback and as part of my current studies in the Beautiful Software Initiative. Please get in touch if you have feedback.
+I can see at least seven different layers where Alexander’s theory of centers and wholeness and a generative unfolding process applies in subtly different ways to the various efforts involved in building software.</description>
+    </item>
     
     <item>
       <title>Categories Structure Our World</title>
@@ -19,7 +26,7 @@
       <guid>https://stefan-lesser.com/2020/01/17/categories-structure-our-world/</guid>
       <description>Part 4 of my blog chain Universal Structure. Start here.
  As we built up our taxonomy of animals with cats and dogs we talked about things we can point at — things that exist in the real world, like cats and dogs.
-Entities Let&#39;s call these things in the real world entities. The words we use rarely describe a single entity. We use cat for all kinds of cats. And that&#39;s what makes a category.</description>
+Entities Let&amp;rsquo;s call these things in the real world entities. The words we use rarely describe a single entity. We use cat for all kinds of cats. And that&amp;rsquo;s what makes a category.</description>
     </item>
     
     <item>
@@ -50,7 +57,7 @@ We use libraries and frameworks on platforms with architectures that we expect t
       
       <guid>https://stefan-lesser.com/2020/01/07/writing-as-thinking/</guid>
       <description>Part 1 of my Creative Productivity blog chain.
- It crossed my mind to revive this blog with a meta post about writing. But there are too many blogs out there that haven&#39;t published anything in a long time, and the last post describes in great detail how the author plans to focus more on writing and finally publish more content on a regular schedule. Not where I want to end up…</description>
+ It crossed my mind to revive this blog with a meta post about writing. But there are too many blogs out there that haven&amp;rsquo;t published anything in a long time, and the last post describes in great detail how the author plans to focus more on writing and finally publish more content on a regular schedule. Not where I want to end up…</description>
     </item>
     
     <item>
@@ -60,7 +67,7 @@ We use libraries and frameworks on platforms with architectures that we expect t
       
       <guid>https://stefan-lesser.com/2019/12/24/a-future-of-programming/</guid>
       <description>Part 2 of my blog chain Beyond Code. Start here.
- The A Future of Programming There are so many directions to explore to democratize programming. It&#39;s useful to be opinionated, make some choices upfront, and shrink the solution space a bit. You might disagree with my choices here, and that&#39;s ok. I write them down so we can find out quickly. That doesn&#39;t mean other directions are wrong or less promising, this is just the direction I am headed.</description>
+ The A Future of Programming There are so many directions to explore to democratize programming. It&amp;rsquo;s useful to be opinionated, make some choices upfront, and shrink the solution space a bit. You might disagree with my choices here, and that&amp;rsquo;s ok. I write them down so we can find out quickly. That doesn&amp;rsquo;t mean other directions are wrong or less promising, this is just the direction I am headed.</description>
     </item>
     
     <item>
@@ -70,8 +77,8 @@ We use libraries and frameworks on platforms with architectures that we expect t
       
       <guid>https://stefan-lesser.com/2019/12/20/categories-everywhere/</guid>
       <description>Part 3 of my Universal Structure blog chain. Start here.
- Language Human language, spoken or written, is an amazingly sophisticated invention that has evolved over centuries. We can describe concepts, transmit those descriptions through space and time, and create shared understanding. It&#39;s not perfect, but it does work reasonably well to help us communicate.
-It&#39;s no coincidence that we &amp;ldquo;talk&amp;rdquo; to computers with programming languages. Let&#39;s forget about programming for a moment and focus just on human language.</description>
+ Language Human language, spoken or written, is an amazingly sophisticated invention that has evolved over centuries. We can describe concepts, transmit those descriptions through space and time, and create shared understanding. It&amp;rsquo;s not perfect, but it does work reasonably well to help us communicate.
+It&amp;rsquo;s no coincidence that we &amp;ldquo;talk&amp;rdquo; to computers with programming languages. Let&amp;rsquo;s forget about programming for a moment and focus just on human language.</description>
     </item>
     
     <item>
@@ -80,7 +87,7 @@ It&#39;s no coincidence that we &amp;ldquo;talk&amp;rdquo; to computers with pro
       <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://stefan-lesser.com/2019/12/17/the-art-of-abstraction/</guid>
-      <description>In a recent discussion on The Future of Coding Slack my understanding of abstraction was challenged. As I currently write about categorization, this was a good reason to reflect on what abstraction means to me. The word gets thrown around lightly in technical discussions. We&#39;re susceptible to just assume that our intuitive understanding of a word is sufficient to wield it as a weapon in debate.
+      <description>In a recent discussion on The Future of Coding Slack my understanding of abstraction was challenged. As I currently write about categorization, this was a good reason to reflect on what abstraction means to me. The word gets thrown around lightly in technical discussions. We&amp;rsquo;re susceptible to just assume that our intuitive understanding of a word is sufficient to wield it as a weapon in debate.
 What is abstraction? My understanding of the process of abstraction is that it is fundamentally about removing ignoring detail.</description>
     </item>
     
@@ -105,7 +112,7 @@ A lot has changed in software development over the last fifty years, but we stil
       <guid>https://stefan-lesser.com/2019/12/10/free-your-mind/</guid>
       <description>Part 2 of my Universal Structure blog chain. Start here.
  As I was thinking about structure and data models, I wondered about how we make decisions every day, almost effortlessly, which are fundamentally data model manipulations:
- Structuring emails or notes with headings and by moving paragraphs of text around Using lists and tables and knowing which items belong together and how to order them Creating graphs and visualizations to express certain points with &amp;ldquo;pictures worth more than a thousand words&amp;rdquo; Naming documents, files, and folders in a way sensible to us Filing away documents, emails, notes, and tasks into complex folder hierarchies Building these hierarchies in the first place and adapting them over time as our needs change  You don&#39;t have to be a computer scientist or software engineer to do any of these things.</description>
+ Structuring emails or notes with headings and by moving paragraphs of text around Using lists and tables and knowing which items belong together and how to order them Creating graphs and visualizations to express certain points with &amp;ldquo;pictures worth more than a thousand words&amp;rdquo; Naming documents, files, and folders in a way sensible to us Filing away documents, emails, notes, and tasks into complex folder hierarchies Building these hierarchies in the first place and adapting them over time as our needs change  You don&amp;rsquo;t have to be a computer scientist or software engineer to do any of these things.</description>
     </item>
     
     <item>
@@ -125,7 +132,7 @@ Part of the vision document described the approach of how we wanted to tackle su
       <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://stefan-lesser.com/2018/06/20/on-apples-love-affair-with-swift/</guid>
-      <description>I wanted to write a thoughtful article in response to Dominik Wagner&#39;s &amp;ldquo;On my misalignment with Apple&#39;s love affair with Swift&amp;rdquo;. During my research I realized, that Chris Lattner had already done this. Sort of. 17 months before Dominik published his piece.
+      <description>I wanted to write a thoughtful article in response to Dominik Wagner&amp;rsquo;s &amp;ldquo;On my misalignment with Apple&amp;rsquo;s love affair with Swift&amp;rdquo;. During my research I realized, that Chris Lattner had already done this. Sort of. 17 months before Dominik published his piece.
 Thanks to Marco Arment, Casey Liss, and John Siracusa for recording a fabulous &amp;ldquo;not an interview show&amp;rdquo; with Chris &amp;ldquo;extraordinary circumstance&amp;rdquo; Lattner back in January 2017, asking the right questions, and even publishing a transcript.</description>
     </item>
     

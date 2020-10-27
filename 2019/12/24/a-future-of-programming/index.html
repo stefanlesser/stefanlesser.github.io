@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.60.1" />
+<meta name="generator" content="Hugo 0.76.5" />
 
 
 <title>A Future of Programming - Stefan Lesser</title>
@@ -58,7 +58,7 @@
       <p>Part 2 of my blog chain <em>Beyond Code</em>. Start <a href="https://stefan-lesser.com/2019/12/13/democratize-programming/">here</a>.</p>
 <hr>
 <h1 id="the-a-future-of-programming"><del>The</del> A Future of Programming</h1>
-<p>There are so many directions to explore to <a href="https://stefan-lesser.com/2019/12/13/democratize-programming/">democratize programming</a>. It's useful to be opinionated, make some choices upfront, and shrink the solution space a bit. You might disagree with my choices here, and that's ok. I write them down so we can find out quickly. That doesn't mean other directions are wrong or less promising, this is just the direction I am headed.</p>
+<p>There are so many directions to explore to <a href="https://stefan-lesser.com/2019/12/13/democratize-programming/">democratize programming</a>. It&rsquo;s useful to be opinionated, make some choices upfront, and shrink the solution space a bit. You might disagree with my choices here, and that&rsquo;s ok. I write them down so we can find out quickly. That doesn&rsquo;t mean other directions are wrong or less promising, this is just the direction I am headed.</p>
 <p>Read these principles as &ldquo;one is more valuable than the other&rdquo; — both sides have value, I just value one more than the other.</p>
 <h2 id="audience">Audience</h2>
 <h3 id="augment-human-intellect--replace-human-intellect">Augment human intellect &gt; replace human intellect</h3>
@@ -70,13 +70,13 @@
 <h3 id="workflows--apps">Workflows &gt; apps</h3>
 <p>Blur the line between developers and users. Enable people to modify the systems and tools they use and adapt them to their needs. Crack open the monolithic app model and expose finer-grained components and workflows to be combined in new ways. Apps can still coexist as a delivery mechanism for pre-packaged workflows that can be re-designed and potentially even integrated across different apps.</p>
 <h3 id="learn-the-craft--write-code">Learn the craft &gt; write code</h3>
-<p>Help people discover the craft of modeling by letting them build, explore, manipulate, and understand complex interactive systems in an approachable and entertaining way. Perhaps, writing code as translating a mental model of a complex system into a representation a computer can understand is part of that. Perhaps it's not.</p>
+<p>Help people discover the craft of modeling by letting them build, explore, manipulate, and understand complex interactive systems in an approachable and entertaining way. Perhaps, writing code as translating a mental model of a complex system into a representation a computer can understand is part of that. Perhaps it&rsquo;s not.</p>
 <h2 id="experience">Experience</h2>
 <h3 id="explore--experiment--plan--implement">Explore &amp; experiment &gt; plan &amp; implement</h3>
 <p>Encourage exploration and experiments. Don’t expect people to already know what they want or need, let them discover through playful exploration. <em>Creation is discovery.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></em></p>
 <h3 id="empathy--proficiency">Empathy &gt; Proficiency</h3>
 <p>Make mistakes impossible (e.g. no syntax or type errors) or easy to revert (e.g. undo and redo, history graphs, time travel debugging). Move technicalities and implementation details (e.g. memory management) out of the way, but keep them accessible. Treat failure states as teaching opportunities.</p>
-<h3 id="peoplecentric--systemcentric">People-centric &gt; System-centric</h3>
+<h3 id="people-centric--system-centric">People-centric &gt; System-centric</h3>
 <p>People should not have to adapt to the tool; the tool needs to adapt to people. If using the tool effectively is only possible if you understand how the tool works, it needs more work until it works more like you think.</p>
 <h3 id="direct-visual-manipulation--think-like-a-computer">Direct (visual) manipulation &gt; Think like a computer</h3>
 <p>Leave the limits of text-based editing behind. Design and build complex systems by exploring and manipulating visual, interactive representations of structure and behavior in real-time with immediate feedback. Instead of simulating algorithmic computation in our heads, leverage our unique abilities of embodied cognition.</p>
@@ -84,17 +84,17 @@
 <p>Blur the lines between designing, building, and running the system; ideally there is no distinction between these modes. Minimize perceptible waiting times (like there are today for building or compiling). The system runs continuously and is modified directly — like shaping a digital material in real-time.</p>
 <h3 id="declarative--imperative">Declarative &gt; Imperative</h3>
 <p>Describe <em>what</em> instead of <em>how</em>; prefer declarative over imperative ways to describe aspects of a system. Turn the how into an implementation detail. Leave extension points for different implementations.</p>
-<h3 id="value-peoples-privacy">Value people's privacy</h3>
+<h3 id="value-peoples-privacy">Value people&rsquo;s privacy</h3>
 <p>Use as little data as necessary. Leave people in full control over their data. If you need to store user data, prefer local storage over servers, only store it encrypted, with only the user being able to decrypt it. Use end-to-end encryption. Avoid logging and analytics, and use <a href="#differential-privacy">differential privacy</a> if you do.</p>
 <h2 id="technology">Technology</h2>
 <h3 id="mobile--desktop">Mobile &gt; Desktop</h3>
-<p>Design for mobile first: small screens and touch interfaces on phones and tablets. Leverage mobile device capabilities. It should be possible to design complex systems on a smart phone. It’s ok if it’s more comfortable on a big screen, but there's not reason why it shouldn't be possible on a small screen.</p>
+<p>Design for mobile first: small screens and touch interfaces on phones and tablets. Leverage mobile device capabilities. It should be possible to design complex systems on a smart phone. It’s ok if it’s more comfortable on a big screen, but there&rsquo;s not reason why it shouldn&rsquo;t be possible on a small screen.</p>
 <h3 id="distributed--centralized">Distributed &gt; Centralized</h3>
 <p>Prefer local over remote resources. Don’t push computation out to the network if it can be done locally. Enable as much functionality as possible offline, without access to a network. Consider performance and respect device limitations like connectivity and battery usage.</p>
 <h3 id="native--web">Native &gt; Web</h3>
 <p>Prefer fewer abstraction layers and develop as close to the hardware as feasible. Typical web applications are built on a complex stack of OS, web browser, language runtime, and libraries that introduce complexity, and with it a broader attack surface for security and performance issues. Keep the stack small. Remove dependencies when you can and it is economic to do so.</p>
-<h3 id="platformspecific--crossplatform">Platform-specific &gt; Cross-platform</h3>
-<p>Respect people's choice for a platform and deliver an optimized experience deeply integrated into that platform. Leverage platform-specific capabilities to provide a better experience.</p>
+<h3 id="platform-specific--cross-platform">Platform-specific &gt; Cross-platform</h3>
+<p>Respect people&rsquo;s choice for a platform and deliver an optimized experience deeply integrated into that platform. Leverage platform-specific capabilities to provide a better experience.</p>
 <hr>
 <p><em>To be continued…</em></p>
 <h2 id="further-reading">Further reading</h2>
@@ -102,7 +102,7 @@
 <li><a name="augmenting-human-intellect"></a>Douglas Engelbart: <strong>Augmenting Human Intellect: A Conceptual Framework</strong><br>
 Douglas Engelbart outlines his vision to use computers not just for automation, but to augment human intelligence.
 <a href="http://dougengelbart.org/content/view/138/000/">http://dougengelbart.org/content/view/138/000/</a></li>
-<li><a name="two-philosophies"></a>Ben Thompson: <strong>Tech's Two Philosophies</strong><br>
+<li><a name="two-philosophies"></a>Ben Thompson: <strong>Tech&rsquo;s Two Philosophies</strong><br>
 Ben Thompson contrasts two philosophies in Big Tech: Google and Facebook vs. Microsoft and Apple.
 <a href="https://stratechery.com/2018/techs-two-philosophies/">https://stratechery.com/2018/techs-two-philosophies/</a></li>
 <li><a name="inventing-on-principle"></a>Bret Victor: <strong>Inventing on Principle</strong><br>
@@ -114,8 +114,8 @@ Ben Thompson contrasts two philosophies in Big Tech: Google and Facebook vs. Mic
 <hr>
 <ol>
 <li id="fn:1" role="doc-endnote">
-<p>Many breakthroughs were accidents, discovered along a path that was supposed to lead somewhere else. That's why creators need immediate connection with what they are creating and a tight feedback loop that enables them to see changes without delay.<br>
-–&gt; <a href="#inventing-on-principle">Inventing on Principle, Bret Victor</a><a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#8617;</a></p>
+<p>Many breakthroughs were accidents, discovered along a path that was supposed to lead somewhere else. That&rsquo;s why creators need immediate connection with what they are creating and a tight feedback loop that enables them to see changes without delay.<br>
+–&gt; <a href="#inventing-on-principle">Inventing on Principle, Bret Victor</a> <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </section>

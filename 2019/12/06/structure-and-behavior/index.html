@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.60.1" />
+<meta name="generator" content="Hugo 0.76.5" />
 
 
 <title>Structure and Behavior - Stefan Lesser</title>
@@ -69,8 +69,8 @@
 </ol>
 <hr>
 <p>The core idea behind this was born out of the frustration with the current state of apps, which are mostly just more or less fancy views on data. Users can navigate the data in predefined ways and manipulation is limited, if at all possible.</p>
-<p>Think of all the shopping or traveling apps that let you browse a catalog of products you can order or book. These apps live in a step 0 I didn't mention above — both structure and behavior are completely specified by the developer; the user is merely allowed to navigate and perhaps search and filter the dataset, hopefully ending in a sale of some kind.</p>
-<p>There's nothing wrong with such apps. We just wanted to go further and give everyone the power to design their own structure, then their own behaviors, and ultimately end up with a full-blown tool to build your own systems and tools, hopefully simplifying each step significantly along the way.</p>
+<p>Think of all the shopping or traveling apps that let you browse a catalog of products you can order or book. These apps live in a step 0 I didn&rsquo;t mention above — both structure and behavior are completely specified by the developer; the user is merely allowed to navigate and perhaps search and filter the dataset, hopefully ending in a sale of some kind.</p>
+<p>There&rsquo;s nothing wrong with such apps. We just wanted to go further and give everyone the power to design their own structure, then their own behaviors, and ultimately end up with a full-blown tool to build your own systems and tools, hopefully simplifying each step significantly along the way.</p>
 <p>Great, so I broke down a giant challenge into three huge ones. It might not have helped us much getting anywhere closer to building anything. It did, however, put me on an unexpected path that produced some surprising insights.</p>
 <h3 id="making-assumptions">Making assumptions</h3>
 <p>When programmers think about the future of programming, it is only natural to start from where we are now. We make assumptions. Some of them automatically, unconsciously, without reflection. For instance, that there has to be a programming language. And that this language will be used to specify behavior.</p>
@@ -78,7 +78,7 @@
 <h3 id="structuring-data">Structuring data</h3>
 <p>In my mind step 1 was a better way to model the structure of data. In an abstract sense, this seems to be what most non-programmers want to do with computers: deal with data, visualize and manipulate it.</p>
 <p>Think of Filemaker or Microsoft Access, although of course, bringing these examples up will frame your thinking in a way that has little to do with what we were up to. Our goal was to help people without a programming background to design data models without having to know anything about data models, databases, schemas, keys, relationships, files, formats, types, etc.</p>
-<p>Think of somebody who doesn't have a technical background, yet still uses a computer or smart phone to take notes. This person makes seemingly simple decisions:</p>
+<p>Think of somebody who doesn&rsquo;t have a technical background, yet still uses a computer or smart phone to take notes. This person makes seemingly simple decisions:</p>
 <ul>
 <li>Where do I put this idea?</li>
 <li>Do I create a new note for it?</li>
@@ -90,14 +90,14 @@
 </ul>
 <p>They might not know what a data model is, but they are manipulating one right there.
 Sure, this is not anywhere close to what we programmers think of when we read &ldquo;data model&rdquo;.
-And that's exactly the point.</p>
+And that&rsquo;s exactly the point.</p>
 <h3 id="abolishing-ceremony">Abolishing ceremony</h3>
-<p>In programming (or database) land, we've created lots of ceremony around data: schemas, types, validation, integrity, transactions, and much more.<br>
+<p>In programming (or database) land, we&rsquo;ve created lots of ceremony around data: schemas, types, validation, integrity, transactions, and much more.<br>
 Some of these are necessary to make it work.<br>
 Some of these are useful for the use cases we defined.<br>
 Some of these are helpful to prevent us from making mistakes that could lead to data loss.</p>
 <p>Well, <em>are</em> they? Or <em>were</em> they?<br>
-Now that we all carry pretty capable supercomputers in our pockets, maybe it's time to question some of our assumptions.</p>
+Now that we all carry pretty capable supercomputers in our pockets, maybe it&rsquo;s time to question some of our assumptions.</p>
 <p>What if all that ceremony was optional?<br>
 How could you modify the structure of data without it?<br>
 How could you still do useful stuff with that data?<br>

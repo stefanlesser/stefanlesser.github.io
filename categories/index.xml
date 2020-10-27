@@ -6,10 +6,15 @@
     <description>Recent content in Categories on Stefan Lesser</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jan 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://stefan-lesser.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://stefan-lesser.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building Beauty</title>
+      <link>https://stefan-lesser.com/categories/building-beauty/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stefan-lesser.com/categories/building-beauty/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Universal Structure</title>

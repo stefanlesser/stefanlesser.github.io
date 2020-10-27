@@ -212,6 +212,7 @@ img {
   color: #222;
   padding: 5px 0;
   border-bottom: 1px solid #ddd;
+  max-width: 75%;
 }
 
 .archive-item-link:hover {
