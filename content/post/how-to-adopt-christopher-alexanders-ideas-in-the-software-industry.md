@@ -63,3 +63,7 @@ Programming is fundamentally about building tools, which is a step removed from 
 If a better future for architecture is rooted in involving everyone more in the building process, so that the people who exactly know or feel what they need and want are empowered to design and build these things themselves or at least are much more involved in the process of creation, then software needs to be headed into the same direction.
 
 Bad software, designed without empathy, that restricts people to only follow strict procedures to achieve one specific goal, has trained millions of people that software is cumbersome, inflexible, and even hostile and that users have to adapt to the machine, if they want to get anything done. The future of computing should be very much the opposite. Good software can augment the human experience by becoming the tool that’s needed in the moment, unrestricted by limitations in the physical world. It can become the personal dynamic medium through which exploring and expressing our ideas should become simpler rather than more difficult.
+
+***
+
+*If you liked this post, you might be interested in my [Notes on _The Nature of Order_](http://nature-of-order.stefan-lesser.com/), where I publish my notes as I’m working my way through Christopher Alexander’s magnum opus _The Nature of Order_. You’ll also find a link to a Telegram group there, if you want to stay in touch about this and connect with other people who are interested in bringing. See you over there!*
