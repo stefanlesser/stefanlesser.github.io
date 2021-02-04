@@ -19,13 +19,13 @@ To rectify the first challenge, we need to pull Alexander’s theory out of its 
 We face similar issues in the tech and software industry, which perhaps show their unintended consequences in an even accelerated form. The core insights of Alexander’s theory apply as well to our medium as they do to his. Software people shouldn’t feel like they have to learn about architecture before they can reap practical results from a methodology that happened to have originated there and should have access to a comprehensive explanation that uses our language and our context.
 
 ### Software engineering in the large — collaboration
-Most software projects are too large to be created by a single person, just like most buildings require a team of people to be brought to live. Every team effort requires coordination and this coordination needs to take a different form if done in the way Alexander intended. The most obvious example being that the customer or end user — the human beings that’ll be left with the built artifact and have to live with it — need to be much more involved in the designing and building process.
+Most software projects are too large to be created by a single person, just like most buildings require a team of people to be brought to life. Every team effort requires coordination and this coordination needs to take a different form if done in the way Alexander intended. The most obvious example being that the customer or end user — the human beings that’ll be left with the built artifact and have to live with it — need to be much more involved in the designing and building process.
 
 In a way this might be the layer where most prior art exists already. The agile movement is certainly one attempt, although I believe that it has taken on its own ideology that no longer bears close enough resemblance to Alexander’s theory anymore. Agile has over-optimized for allowing change in the software construction process, which is definitely an improvement to what we had before. It does, however, have no answers as to how the software constructed in that process exhibit properties of beauty or wholeness.
 
 The design thinking movement formalizes the involvement of customers in the early design process with a focus on interactive design sessions and early prototyping., but without being overly opinionated on the actual process of building. 
 
-Another promising approach is Ryan Singer’s _Shape Up_, which the author has expressed to be heavily influenced by Alexanders work and which covers both the designing and building parts of the process.
+Another promising approach is Ryan Singer’s [_Shape Up_](https://basecamp.com/shapeup), which the author has expressed to be heavily influenced by Alexanders work and which covers both the designing and building parts of the process.
 
 ### Software architecture
 This might be the most popular connection between Alexander’s work and software so far. Design patterns are likely the most formal attempt to transfer a tiny portion of Alexander’s work to software in the most direct way possible.
@@ -34,14 +34,15 @@ However, design patterns focus primarily on static structure and were heavily en
 
 While we’re at it though, it also needs to be pointed out that there is a whole lot more in Alexander’s theory than what made it into design patterns. Centers and wholeness and the process of unfolding deserve their own attempts of finding their equivalent elements in the digital world.
 
-Interpreting pattern languages as a generative grammar describing just enough of the target artifact such that we don’t get dragged into too much detail too early — an extremely common problem in constructing software — seems like an area worth exploring and with great potential. [Add description/link to _Unfolding Interpreters_ project]
+Interpreting pattern languages as a generative grammar describing just enough of the target artifact such that we don’t get dragged into too much detail too early — an extremely common problem in constructing software — seems like an area worth exploring and with great potential. \
+[Add description/link to _Unfolding Interpreters_ project]
 
 ### Formal computational models and theoretic implications
 Alexander himself was a trained mathematician and attempted to formally specify his theory of centers. Undoubtedly, there is a lot of potential in further investigating the mathematical underpinnings and attempting to transfer this to theoretical computer science.
 
 A promising direction seems to be abstract/universal algebra and combinatory logic that could perhaps take the formal equivalent of the fifteen properties and define the complex relations between them as algebraic compositions on top of them.
 
-Although much larger in scope and not immediately connected to Alexander, [GitHub - prathyvsh/morphisms-of-computational-structures: A visual catalogue + story of morphisms displayed across computational structures.](https://github.com/prathyvsh/morphisms-of-computational-structures) seems to be an exciting investigation.
+Although much larger in scope and not immediately connected to Alexander, [GitHub - prathyvsh/morphisms-of-computational-structures: A visual catalogue + story of morphisms displayed across computational structures](https://github.com/prathyvsh/morphisms-of-computational-structures) seems to be an exciting investigation.
 
 ### Cognitive science and human thinking primitives
 Alexander alludes to a deeper embodied character of wholeness in ourselves. Exciting research in design theory, psychology, linguistics, biology and many more fields has surfaced exciting models that explain how we categorize and how we experience our world, and have the potential to explain much more precisely how wholeness “works” and where it comes from.
@@ -66,4 +67,4 @@ Bad software, designed without empathy, that restricts people to only follow str
 
 ***
 
-*If you liked this post, you might be interested in my [Notes on _The Nature of Order_](http://nature-of-order.stefan-lesser.com/), where I publish my notes as I’m working my way through Christopher Alexander’s magnum opus _The Nature of Order_. You’ll also find a link to a Telegram group there, if you want to stay in touch about this and connect with other people who are interested in bringing. See you over there!*
+*If you liked this post, you might be interested in my [Notes on _The Nature of Order_](http://nature-of-order.stefan-lesser.com/), where I publish my notes as I’m working my way through Christopher Alexander’s magnum opus _The Nature of Order_. You’ll also find a link to a Telegram group there, if you want to stay in touch about this and connect with other people who are interested in bringing his ideas to the software world. See you over there!*
