@@ -1,11 +1,12 @@
 baseURL = "https://stefan-lesser.com/"
-languageCode = "en-us"
+locale = "en-us"
 title = "Stefan Lesser"
 theme = "hugo-lithium-theme"
-googleAnalytics = "UA-7357192-1"
+features = ["blog"]
 
-tags = ["blog"]
-features = ["blog", "google analytics"]
+[taxonomies]
+  category = "categories"
+  tag = "tags"
 min_version = 0.15
 rssLimit = 20
 
