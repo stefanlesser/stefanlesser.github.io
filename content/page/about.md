@@ -8,5 +8,5 @@ Hi, I'm Stefan. A passionate programmer, application architect, and former Apple
 ---
 
 Follow this blog [via RSS](/index.xml). \
-Receive [semi-regular email updates](https://stefanlesser.substack.com/p/coming-soon?r=3cxlq&utm_campaign=post&utm_medium=web&utm_source=copy). \
-Get in touch [via Twitter](https://twitter.com/stefanlesser).
+Receive [semi-regular email updates](https://stefanlesser.substack.com/). \
+Get in touch [via LinkedIn](https://www.linkedin.com/in/stefanlesser/).
