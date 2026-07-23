@@ -4,11 +4,12 @@ title = "Stefan Lesser"
 theme = "hugo-lithium-theme"
 features = ["blog"]
 
+min_version = 0.15
+rssLimit = 20
+
 [taxonomies]
   category = "categories"
   tag = "tags"
-min_version = 0.15
-rssLimit = 20
 
 [markup.goldmark.renderer]
     unsafe = true
