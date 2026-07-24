@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.164.0">
 
 
 <title>Structure and Behavior - Stefan Lesser</title>
@@ -17,8 +17,8 @@
 
 
 
-<link rel="icon" href="https://stefan-lesser.com/images/" type="image/x-icon"/>
-<link rel="stylesheet" href="https://stefan-lesser.com/css/main.css" media="all">
+<link rel="icon" href="/images/" type="image/x-icon"/>
+<link rel="stylesheet" href="/css/main.css" media="all">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400|Lato:400,400italic,700">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
@@ -27,7 +27,7 @@
     <div class="wrapper">
       <header class="header">
         <nav class="nav">
-  <a href="https://stefan-lesser.com/" class="nav-title">
+  <a href="/" class="nav-title">
     Stefan Lesser
   </a>
 
@@ -92,15 +92,15 @@
 Sure, this is not anywhere close to what we programmers think of when we read &ldquo;data model&rdquo;.
 And that&rsquo;s exactly the point.</p>
 <h3 id="abolishing-ceremony">Abolishing ceremony</h3>
-<p>In programming (or database) land, we&rsquo;ve created lots of ceremony around data: schemas, types, validation, integrity, transactions, and much more.<br>
-Some of these are necessary to make it work.<br>
-Some of these are useful for the use cases we defined.<br>
+<p>In programming (or database) land, we&rsquo;ve created lots of ceremony around data: schemas, types, validation, integrity, transactions, and much more. <br>
+Some of these are necessary to make it work. <br>
+Some of these are useful for the use cases we defined. <br>
 Some of these are helpful to prevent us from making mistakes that could lead to data loss.</p>
-<p>Well, <em>are</em> they? Or <em>were</em> they?<br>
+<p>Well, <em>are</em> they? Or <em>were</em> they? <br>
 Now that we all carry pretty capable supercomputers in our pockets, maybe it&rsquo;s time to question some of our assumptions.</p>
-<p>What if all that ceremony was optional?<br>
-How could you modify the structure of data without it?<br>
-How could you still do useful stuff with that data?<br>
+<p>What if all that ceremony was optional? <br>
+How could you modify the structure of data without it? <br>
+How could you still do useful stuff with that data? <br>
 And what is <em>structure</em> anyway?</p>
 <p>And so I grabbed my spelunking gear and climbed down into a massive rabbit hole…</p>
 <hr>
@@ -109,15 +109,17 @@ And what is <em>structure</em> anyway?</p>
     </div>
   </article>
 
-  
-
 </main>
 
       <footer class="footer">
         <ul class="footer-links">
           
           <li>
-              <a href="https://twitter.com/stefanlesser" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="/index.xml" type="application/rss+xml" target="_blank"><i class="fas fa-rss"></i></a>
+          </li>
+          
+          <li>
+              <a href="https://stefanlesser.substack.com" target="_blank"><i class="fab fas fa-bookmark"></i></a>
           </li>
           <li>
               <a href="https://www.linkedin.com/in/stefanlesser/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -126,20 +128,6 @@ And what is <em>structure</em> anyway?</p>
       </footer>
 
     </div>
-
-    
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-7357192-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
 
   </body>
 </html>

@@ -1,47 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on Stefan Lesser</title>
-    <link>https://stefan-lesser.com/categories/</link>
-    <description>Recent content in Categories on Stefan Lesser</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://stefan-lesser.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Building Beauty</title>
-      <link>https://stefan-lesser.com/categories/building-beauty/</link>
-      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://stefan-lesser.com/categories/building-beauty/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Universal Structure</title>
-      <link>https://stefan-lesser.com/categories/universal-structure/</link>
-      <pubDate>Fri, 17 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://stefan-lesser.com/categories/universal-structure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Creative Productivity</title>
-      <link>https://stefan-lesser.com/categories/creative-productivity/</link>
-      <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://stefan-lesser.com/categories/creative-productivity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Beyond Code</title>
-      <link>https://stefan-lesser.com/categories/beyond-code/</link>
-      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://stefan-lesser.com/categories/beyond-code/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Categories on Stefan Lesser</title>
+		<link>https://stefan-lesser.com/categories/</link>
+		<description>Recent content in Categories on Stefan Lesser</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://stefan-lesser.com/categories/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Building Beauty</title>
+				<link>https://stefan-lesser.com/categories/building-beauty/</link>
+				<pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+				<guid>https://stefan-lesser.com/categories/building-beauty/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Universal Structure</title>
+				<link>https://stefan-lesser.com/categories/universal-structure/</link>
+				<pubDate>Fri, 17 Jan 2020 00:00:00 +0000</pubDate>
+				<guid>https://stefan-lesser.com/categories/universal-structure/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Creative Productivity</title>
+				<link>https://stefan-lesser.com/categories/creative-productivity/</link>
+				<pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
+				<guid>https://stefan-lesser.com/categories/creative-productivity/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Beyond Code</title>
+				<link>https://stefan-lesser.com/categories/beyond-code/</link>
+				<pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
+				<guid>https://stefan-lesser.com/categories/beyond-code/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

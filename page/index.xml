@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Pages on Stefan Lesser</title>
-    <link>https://stefan-lesser.com/page/</link>
-    <description>Recent content in Pages on Stefan Lesser</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 20 Jun 2018 11:56:55 +0100</lastBuildDate><atom:link href="https://stefan-lesser.com/page/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>https://stefan-lesser.com/about/</link>
-      <pubDate>Wed, 20 Jun 2018 11:56:55 +0100</pubDate>
-      
-      <guid>https://stefan-lesser.com/about/</guid>
-      <description>Hi, I&amp;rsquo;m Stefan. A passionate programmer, application architect, and former Apple Technology Evangelist.
- Follow this blog via RSS.
-Receive semi-regular email updates.
-Get in touch via Twitter.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Pages on Stefan Lesser</title>
+		<link>https://stefan-lesser.com/page/</link>
+		<description>Recent content in Pages on Stefan Lesser</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 20 Jun 2018 11:56:55 +0100</lastBuildDate>
+		
+			<atom:link href="https://stefan-lesser.com/page/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>About</title>
+				<link>https://stefan-lesser.com/about/</link>
+				<pubDate>Wed, 20 Jun 2018 11:56:55 +0100</pubDate>
+				<guid>https://stefan-lesser.com/about/</guid>
+				<description>&lt;p&gt;Hi, I&amp;rsquo;m Stefan. A passionate programmer, application architect, and former Apple Technology Evangelist.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Follow this blog &lt;a href=&#34;https://stefan-lesser.com/index.xml&#34;&gt;via RSS&lt;/a&gt;. &lt;br&gt;&#xA;Receive &lt;a href=&#34;https://stefanlesser.substack.com/&#34;&gt;semi-regular email updates&lt;/a&gt;. &lt;br&gt;&#xA;Get in touch &lt;a href=&#34;https://www.linkedin.com/in/stefanlesser/&#34;&gt;via LinkedIn&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

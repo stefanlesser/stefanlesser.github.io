@@ -1,140 +1,101 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Stefan Lesser</title>
-    <link>https://stefan-lesser.com/post/</link>
-    <description>Recent content in Posts on Stefan Lesser</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://stefan-lesser.com/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How to adopt Christopher Alexander’s ideas in the software industry</title>
-      <link>https://stefan-lesser.com/2020/10/27/how-to-adopt-christopher-alexanders-ideas-in-the-software-industry/</link>
-      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://stefan-lesser.com/2020/10/27/how-to-adopt-christopher-alexanders-ideas-in-the-software-industry/</guid>
-      <description>What does it mean to apply or transfer Christopher Alexander’s ideas to the world of software?
-This is an early draft, written in one go, that I quickly wanted to publish for early feedback and as part of my current studies in the Beautiful Software Initiative. Please get in touch if you have feedback.
-I can see at least seven different layers where Alexander’s theory of centers and wholeness and a generative unfolding process applies in subtly different ways to the various efforts involved in building software.</description>
-    </item>
-    
-    <item>
-      <title>Categories Structure Our World</title>
-      <link>https://stefan-lesser.com/2020/01/17/categories-structure-our-world/</link>
-      <pubDate>Fri, 17 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://stefan-lesser.com/2020/01/17/categories-structure-our-world/</guid>
-      <description>Part 4 of my blog chain Universal Structure. Start here.
- As we built up our taxonomy of animals with cats and dogs we talked about things we can point at — things that exist in the real world, like cats and dogs.
-Entities Let&amp;rsquo;s call these things in the real world entities. The words we use rarely describe a single entity. We use cat for all kinds of cats. And that&amp;rsquo;s what makes a category.</description>
-    </item>
-    
-    <item>
-      <title>Blog Chains</title>
-      <link>https://stefan-lesser.com/2020/01/14/blog-chains/</link>
-      <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://stefan-lesser.com/2020/01/14/blog-chains/</guid>
-      <description>Part 2 of my Creative Productivity blog chain. Start here.
- When I decided to reactivate this blog, I thought a lot about how to get into a habit of publishing regularly. I have collected lots of material, many notes and writing ideas, but never got to a point where I actually published anything.
-Overcoming perfectionism For a long time I thought of publishing on the Internet as adding to information overload by piling more stuff on top of an already gigantic pile of stuff, contributing even more to an already overcrowded space.</description>
-    </item>
-    
-    <item>
-      <title>Stable Change</title>
-      <link>https://stefan-lesser.com/2020/01/10/stable-change/</link>
-      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://stefan-lesser.com/2020/01/10/stable-change/</guid>
-      <description>It just occurred to me what an interesting philosophy software developers have when it comes to change.
-We use libraries and frameworks on platforms with architectures that we expect to be stable, robust, and reliable. We stack layers of rigid blocks on top of each other, erecting deliberate structures we want to last and stand the test of time. We expect components to be dependable and unambiguous, capabilities to be preserved, and the environment to be consistent and predictable.</description>
-    </item>
-    
-    <item>
-      <title>Writing as Thinking</title>
-      <link>https://stefan-lesser.com/2020/01/07/writing-as-thinking/</link>
-      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://stefan-lesser.com/2020/01/07/writing-as-thinking/</guid>
-      <description>Part 1 of my Creative Productivity blog chain.
- It crossed my mind to revive this blog with a meta post about writing. But there are too many blogs out there that haven&amp;rsquo;t published anything in a long time, and the last post describes in great detail how the author plans to focus more on writing and finally publish more content on a regular schedule. Not where I want to end up…</description>
-    </item>
-    
-    <item>
-      <title>A Future of Programming</title>
-      <link>https://stefan-lesser.com/2019/12/24/a-future-of-programming/</link>
-      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://stefan-lesser.com/2019/12/24/a-future-of-programming/</guid>
-      <description>Part 2 of my blog chain Beyond Code. Start here.
- The A Future of Programming There are so many directions to explore to democratize programming. It&amp;rsquo;s useful to be opinionated, make some choices upfront, and shrink the solution space a bit. You might disagree with my choices here, and that&amp;rsquo;s ok. I write them down so we can find out quickly. That doesn&amp;rsquo;t mean other directions are wrong or less promising, this is just the direction I am headed.</description>
-    </item>
-    
-    <item>
-      <title>Categories Everywhere</title>
-      <link>https://stefan-lesser.com/2019/12/20/categories-everywhere/</link>
-      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://stefan-lesser.com/2019/12/20/categories-everywhere/</guid>
-      <description>Part 3 of my Universal Structure blog chain. Start here.
- Language Human language, spoken or written, is an amazingly sophisticated invention that has evolved over centuries. We can describe concepts, transmit those descriptions through space and time, and create shared understanding. It&amp;rsquo;s not perfect, but it does work reasonably well to help us communicate.
-It&amp;rsquo;s no coincidence that we &amp;ldquo;talk&amp;rdquo; to computers with programming languages. Let&amp;rsquo;s forget about programming for a moment and focus just on human language.</description>
-    </item>
-    
-    <item>
-      <title>The Art of Abstraction</title>
-      <link>https://stefan-lesser.com/2019/12/17/the-art-of-abstraction/</link>
-      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://stefan-lesser.com/2019/12/17/the-art-of-abstraction/</guid>
-      <description>In a recent discussion on The Future of Coding Slack my understanding of abstraction was challenged. As I currently write about categorization, this was a good reason to reflect on what abstraction means to me. The word gets thrown around lightly in technical discussions. We&amp;rsquo;re susceptible to just assume that our intuitive understanding of a word is sufficient to wield it as a weapon in debate.
-What is abstraction? My understanding of the process of abstraction is that it is fundamentally about removing ignoring detail.</description>
-    </item>
-    
-    <item>
-      <title>Democratize Programming</title>
-      <link>https://stefan-lesser.com/2019/12/13/democratize-programming/</link>
-      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://stefan-lesser.com/2019/12/13/democratize-programming/</guid>
-      <description>Part 1 of my blog chain Beyond Code.
-At the end of 2016, after I had left Apple, and half-way into a year of traveling, I thought about what I wanted to tackle next and wrote down1 some big ideas that got me excited. As part of a larger document I wrote:
- Make Developing Software Accessible to Everyone
-aka &amp;ldquo;Fix software development&amp;rdquo;
-A lot has changed in software development over the last fifty years, but we still struggle with the same complexities.</description>
-    </item>
-    
-    <item>
-      <title>Free Your Mind</title>
-      <link>https://stefan-lesser.com/2019/12/10/free-your-mind/</link>
-      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://stefan-lesser.com/2019/12/10/free-your-mind/</guid>
-      <description>Part 2 of my Universal Structure blog chain. Start here.
- As I was thinking about structure and data models, I wondered about how we make decisions every day, almost effortlessly, which are fundamentally data model manipulations:
- Structuring emails or notes with headings and by moving paragraphs of text around Using lists and tables and knowing which items belong together and how to order them Creating graphs and visualizations to express certain points with &amp;ldquo;pictures worth more than a thousand words&amp;rdquo; Naming documents, files, and folders in a way sensible to us Filing away documents, emails, notes, and tasks into complex folder hierarchies Building these hierarchies in the first place and adapting them over time as our needs change  You don&amp;rsquo;t have to be a computer scientist or software engineer to do any of these things.</description>
-    </item>
-    
-    <item>
-      <title>Structure and Behavior</title>
-      <link>https://stefan-lesser.com/2019/12/06/structure-and-behavior/</link>
-      <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://stefan-lesser.com/2019/12/06/structure-and-behavior/</guid>
-      <description>Part 1 of my blog chain Universal Structure.
- In 2018 I wrote a vision document for a start-up I was planning to found shortly after (spoiler: I chose to not become a founder and am now an investor instead). The vision was grand: democratize programming and bring the power of computation to everyone, not just developers.
-Part of the vision document described the approach of how we wanted to tackle such a large challenge and cut it up into smaller pieces.</description>
-    </item>
-    
-    <item>
-      <title>On Apple&#39;s Love Affair With Swift</title>
-      <link>https://stefan-lesser.com/2018/06/20/on-apples-love-affair-with-swift/</link>
-      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://stefan-lesser.com/2018/06/20/on-apples-love-affair-with-swift/</guid>
-      <description>I wanted to write a thoughtful article in response to Dominik Wagner&amp;rsquo;s &amp;ldquo;On my misalignment with Apple&amp;rsquo;s love affair with Swift&amp;rdquo;. During my research I realized, that Chris Lattner had already done this. Sort of. 17 months before Dominik published his piece.
-Thanks to Marco Arment, Casey Liss, and John Siracusa for recording a fabulous &amp;ldquo;not an interview show&amp;rdquo; with Chris &amp;ldquo;extraordinary circumstance&amp;rdquo; Lattner back in January 2017, asking the right questions, and even publishing a transcript.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Posts on Stefan Lesser</title>
+		<link>https://stefan-lesser.com/post/</link>
+		<description>Recent content in Posts on Stefan Lesser</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://stefan-lesser.com/post/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>How to adopt Christopher Alexander’s ideas in the software industry</title>
+				<link>https://stefan-lesser.com/2020/10/27/how-to-adopt-christopher-alexanders-ideas-in-the-software-industry/</link>
+				<pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+				<guid>https://stefan-lesser.com/2020/10/27/how-to-adopt-christopher-alexanders-ideas-in-the-software-industry/</guid>
+				<description>&lt;p&gt;What does it mean to apply or transfer Christopher Alexander’s ideas to the world of software?&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;This is an early draft, written in one go, that I quickly wanted to publish for early feedback and as part of my current studies in the &lt;a href=&#34;https://www.buildingbeauty.org/beautiful-software&#34;&gt;Beautiful Software Initiative&lt;/a&gt;. Please get in touch if you have feedback.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I can see at least seven different layers where Alexander’s theory of centers and wholeness and a generative unfolding process applies in subtly different ways to the various efforts involved in building software. These all demand further research and experimentation, and I believe it is important that we become aware of the various different directions such adaptation efforts can take, so we can be sure that we talk about the same thing and can align our efforts.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Categories Structure Our World</title>
+				<link>https://stefan-lesser.com/2020/01/17/categories-structure-our-world/</link>
+				<pubDate>Fri, 17 Jan 2020 00:00:00 +0000</pubDate>
+				<guid>https://stefan-lesser.com/2020/01/17/categories-structure-our-world/</guid>
+				<description>&lt;p&gt;Part 4 of my blog chain &lt;em&gt;Universal Structure&lt;/em&gt;. Start &lt;a href=&#34;https://stefan-lesser.com/2019/12/06/structure-and-behavior/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://stefan-lesser.com/2019/12/20/categories-everywhere/&#34;&gt;As we built up our taxonomy of &lt;code&gt;animals&lt;/code&gt; with &lt;code&gt;cats&lt;/code&gt; and &lt;code&gt;dogs&lt;/code&gt;&lt;/a&gt; we talked about things we can point at — things that exist in the real world, like cats and dogs.&lt;/p&gt;&#xA;&lt;h3 id=&#34;entities&#34;&gt;Entities&lt;/h3&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s call these things in the real world &lt;em&gt;entities&lt;/em&gt;. The words we use rarely describe a single entity. We use &lt;code&gt;cat&lt;/code&gt; for all &lt;em&gt;kinds&lt;/em&gt; of cats. And that&amp;rsquo;s what makes a &lt;em&gt;category&lt;/em&gt;. The symbol &lt;code&gt;cat&lt;/code&gt; signifies a category that can stand for any cat in the real world. When you say &lt;code&gt;cat&lt;/code&gt; you mean that the thing in the real world you refer to is a &lt;em&gt;kind&lt;/em&gt; of cat — it&amp;rsquo;s part of the category of all things in the world that are &lt;code&gt;cat&lt;/code&gt;s.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Blog Chains</title>
+				<link>https://stefan-lesser.com/2020/01/14/blog-chains/</link>
+				<pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
+				<guid>https://stefan-lesser.com/2020/01/14/blog-chains/</guid>
+				<description>&lt;p&gt;Part 2 of my &lt;em&gt;Creative Productivity&lt;/em&gt; blog chain. Start &lt;a href=&#34;https://stefan-lesser.com/2020/01/07/writing-as-thinking/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;When I decided to reactivate this blog, I thought a lot about how to get into a habit of publishing regularly. I have collected lots of material, many notes and writing ideas, but never got to a point where I actually published anything.&lt;/p&gt;&#xA;&lt;h2 id=&#34;overcoming-perfectionism&#34;&gt;Overcoming perfectionism&lt;/h2&gt;&#xA;&lt;p&gt;For a long time I thought of publishing on the Internet as adding to information overload by piling more stuff on top of an already gigantic pile of stuff, contributing even more to an already overcrowded space. I didn&amp;rsquo;t want to add anything that&amp;rsquo;s not extremely polished and valuable. I was approaching writing blog posts like I approach building products.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Stable Change</title>
+				<link>https://stefan-lesser.com/2020/01/10/stable-change/</link>
+				<pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+				<guid>https://stefan-lesser.com/2020/01/10/stable-change/</guid>
+				<description>&lt;p&gt;It just occurred to me what an interesting philosophy software developers have when it comes to change.&lt;/p&gt;&#xA;&lt;p&gt;We use libraries and frameworks on platforms with architectures that we expect to be stable, robust, and reliable. We stack layers of rigid blocks on top of each other, erecting deliberate structures we want to last and stand the test of time. We expect components to be dependable and unambiguous, capabilities to be preserved, and the environment to be consistent and predictable.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Writing as Thinking</title>
+				<link>https://stefan-lesser.com/2020/01/07/writing-as-thinking/</link>
+				<pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
+				<guid>https://stefan-lesser.com/2020/01/07/writing-as-thinking/</guid>
+				<description>&lt;p&gt;Part 1 of my &lt;em&gt;Creative Productivity&lt;/em&gt; blog chain.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;It crossed my mind to revive this blog with a meta post about writing. But there are too many blogs out there that haven&amp;rsquo;t published anything in a long time, and the last post describes in great detail how the author plans to focus more on writing and finally publish more content on a regular schedule. Not where I want to end up…&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>A Future of Programming</title>
+				<link>https://stefan-lesser.com/2019/12/24/a-future-of-programming/</link>
+				<pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
+				<guid>https://stefan-lesser.com/2019/12/24/a-future-of-programming/</guid>
+				<description>&lt;p&gt;Part 2 of my blog chain &lt;em&gt;Beyond Code&lt;/em&gt;. Start &lt;a href=&#34;https://stefan-lesser.com/2019/12/13/democratize-programming/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;the-a-future-of-programming&#34;&gt;&lt;del&gt;The&lt;/del&gt; A Future of Programming&lt;/h1&gt;&#xA;&lt;p&gt;There are so many directions to explore to &lt;a href=&#34;https://stefan-lesser.com/2019/12/13/democratize-programming/&#34;&gt;democratize programming&lt;/a&gt;. It&amp;rsquo;s useful to be opinionated, make some choices upfront, and shrink the solution space a bit. You might disagree with my choices here, and that&amp;rsquo;s ok. I write them down so we can find out quickly. That doesn&amp;rsquo;t mean other directions are wrong or less promising, this is just the direction I am headed.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Categories Everywhere</title>
+				<link>https://stefan-lesser.com/2019/12/20/categories-everywhere/</link>
+				<pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+				<guid>https://stefan-lesser.com/2019/12/20/categories-everywhere/</guid>
+				<description>&lt;p&gt;Part 3 of my &lt;em&gt;Universal Structure&lt;/em&gt; blog chain. Start &lt;a href=&#34;https://stefan-lesser.com/2019/12/06/structure-and-behavior/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;language&#34;&gt;Language&lt;/h2&gt;&#xA;&lt;p&gt;Human language, spoken or written, is an amazingly sophisticated invention that has evolved over centuries. We can describe concepts, transmit those descriptions through space and time, and create shared understanding. It&amp;rsquo;s not perfect, but it does work reasonably well to help us communicate.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s no coincidence that we &amp;ldquo;talk&amp;rdquo; to computers with programming &lt;em&gt;languages&lt;/em&gt;. Let&amp;rsquo;s forget about programming for a moment and focus just on human language. &lt;br&gt;&#xA;Why is it worth analyzing human language to understand how we think?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Art of Abstraction</title>
+				<link>https://stefan-lesser.com/2019/12/17/the-art-of-abstraction/</link>
+				<pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
+				<guid>https://stefan-lesser.com/2019/12/17/the-art-of-abstraction/</guid>
+				<description>&lt;p&gt;In a recent discussion on &lt;a href=&#34;#future-of-coding&#34;&gt;The Future of Coding Slack&lt;/a&gt; my understanding of &lt;em&gt;abstraction&lt;/em&gt; was challenged. As I currently &lt;a href=&#34;https://stefan-lesser.com/2019/12/06/structure-and-behavior/&#34;&gt;write about categorization&lt;/a&gt;, this was a good reason to reflect on what &lt;em&gt;abstraction&lt;/em&gt; means to me. The word gets thrown around lightly in technical discussions. We&amp;rsquo;re susceptible to just assume that our intuitive understanding of a word is sufficient to wield it as a weapon in debate.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-abstraction&#34;&gt;What is &lt;em&gt;abstraction&lt;/em&gt;?&lt;/h2&gt;&#xA;&lt;p&gt;My understanding of the process of &lt;em&gt;abstraction&lt;/em&gt; is that it is fundamentally about &lt;del&gt;removing&lt;/del&gt; ignoring detail.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Democratize Programming</title>
+				<link>https://stefan-lesser.com/2019/12/13/democratize-programming/</link>
+				<pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+				<guid>https://stefan-lesser.com/2019/12/13/democratize-programming/</guid>
+				<description>&lt;p&gt;&lt;em&gt;Part 1 of my blog chain &lt;em&gt;Beyond Code&lt;/em&gt;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;At the end of 2016, after I had left Apple, and half-way into a year of traveling, I thought about what I wanted to tackle next and wrote down&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; some big ideas that got me excited. As &lt;a href=&#34;#manifesto2017&#34;&gt;part of a larger document&lt;/a&gt; I wrote:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Make Developing Software Accessible to Everyone&lt;/strong&gt; &lt;br&gt;&#xA;&lt;em&gt;aka &amp;ldquo;Fix software development&amp;rdquo;&lt;/em&gt; &lt;br&gt;&#xA;A lot has changed in software development over the last fifty years, but we still struggle with the same complexities. Our tools got so much better, but our apps still crash, bugs are still hard to find, and codebases still hard to maintain. We invented countless programming languages, but we&amp;rsquo;re still typing letters on keyboards chaining little symbols into complex hierarchies using text editors. Today, regular people can become authors, photographers, movie directors, or music producers. We created tools that lowered the barrier of entry for everyone. If we can do it for them, we can do it for us. However, to do so, we need to fundamentally re-think the way we produce software. We need to challenge core assumptions to make programming easier, faster, and more accessible. Some tools we invented are more effective than others. What are these tools? How can we measure how effective they are? What can we learn from them to create even better tools? How can we write less code? Do we have to write code at all?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Free Your Mind</title>
+				<link>https://stefan-lesser.com/2019/12/10/free-your-mind/</link>
+				<pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
+				<guid>https://stefan-lesser.com/2019/12/10/free-your-mind/</guid>
+				<description>&lt;p&gt;Part 2 of my &lt;em&gt;Universal Structure&lt;/em&gt; blog chain. Start &lt;a href=&#34;https://stefan-lesser.com/2019/12/06/structure-and-behavior/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;As I was thinking about structure and data models, I wondered about how we make decisions every day, almost effortlessly, which are fundamentally data model manipulations:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Structuring emails or notes with headings and by moving paragraphs of text around&lt;/li&gt;&#xA;&lt;li&gt;Using lists and tables and knowing which items belong together and how to order them&lt;/li&gt;&#xA;&lt;li&gt;Creating graphs and visualizations to express certain points with &amp;ldquo;pictures worth more than a thousand words&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;Naming documents, files, and folders in a way sensible to us&lt;/li&gt;&#xA;&lt;li&gt;Filing away documents, emails, notes, and tasks into complex folder hierarchies&lt;/li&gt;&#xA;&lt;li&gt;Building these hierarchies in the first place and adapting them over time as our needs change&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;You don&amp;rsquo;t have to be a computer scientist or software engineer to do any of these things. Chances are that if you are one, you think about them differently. And perhaps too much.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Structure and Behavior</title>
+				<link>https://stefan-lesser.com/2019/12/06/structure-and-behavior/</link>
+				<pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+				<guid>https://stefan-lesser.com/2019/12/06/structure-and-behavior/</guid>
+				<description>&lt;p&gt;Part 1 of my blog chain &lt;em&gt;Universal Structure&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;In 2018 I wrote a vision document for a start-up I was planning to found shortly after (&lt;em&gt;spoiler: I chose to not become a founder and am now an investor instead&lt;/em&gt;). The vision was grand: democratize programming and bring the power of computation to everyone, not just developers.&lt;/p&gt;&#xA;&lt;p&gt;Part of the vision document described the approach of how we wanted to tackle such a large challenge and cut it up into smaller pieces. In a section titled &lt;em&gt;&amp;ldquo;How to (not) democratize programming&amp;rdquo;&lt;/em&gt; I wrote:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>On Apple&#39;s Love Affair With Swift</title>
+				<link>https://stefan-lesser.com/2018/06/20/on-apples-love-affair-with-swift/</link>
+				<pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+				<guid>https://stefan-lesser.com/2018/06/20/on-apples-love-affair-with-swift/</guid>
+				<description>&lt;p&gt;I wanted to write a thoughtful article in response to &lt;a href=&#34;http://rant.monkeydom.de/posts/2018/06/10/on-my-misalignment-with-apple_s-love-affair-with-swift&#34;&gt;Dominik Wagner&amp;rsquo;s &amp;ldquo;On my misalignment with Apple&amp;rsquo;s love affair with Swift&amp;rdquo;&lt;/a&gt;. During my research I realized, that Chris Lattner had already done this. Sort of. 17 months &lt;em&gt;before&lt;/em&gt; Dominik published his piece.&lt;/p&gt;&#xA;&lt;p&gt;Thanks to &lt;a href=&#34;https://marco.org/&#34;&gt;Marco Arment&lt;/a&gt;, &lt;a href=&#34;https://www.caseyliss.com/&#34;&gt;Casey Liss&lt;/a&gt;, and &lt;a href=&#34;http://hypercritical.co&#34;&gt;John Siracusa&lt;/a&gt; for recording a fabulous &amp;ldquo;not an interview show&amp;rdquo; with &lt;a href=&#34;http://nondot.org/sabre/&#34;&gt;Chris &amp;ldquo;extraordinary circumstance&amp;rdquo; Lattner&lt;/a&gt; back in January 2017, asking the right questions, and even &lt;a href=&#34;http://atp.fm/205-chris-lattner-interview-transcript&#34;&gt;publishing a transcript&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

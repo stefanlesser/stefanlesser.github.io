@@ -1,34 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Beyond Code on Stefan Lesser</title>
-    <link>https://stefan-lesser.com/categories/beyond-code/</link>
-    <description>Recent content in Beyond Code on Stefan Lesser</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 24 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://stefan-lesser.com/categories/beyond-code/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>A Future of Programming</title>
-      <link>https://stefan-lesser.com/2019/12/24/a-future-of-programming/</link>
-      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://stefan-lesser.com/2019/12/24/a-future-of-programming/</guid>
-      <description>Part 2 of my blog chain Beyond Code. Start here.
- The A Future of Programming There are so many directions to explore to democratize programming. It&amp;rsquo;s useful to be opinionated, make some choices upfront, and shrink the solution space a bit. You might disagree with my choices here, and that&amp;rsquo;s ok. I write them down so we can find out quickly. That doesn&amp;rsquo;t mean other directions are wrong or less promising, this is just the direction I am headed.</description>
-    </item>
-    
-    <item>
-      <title>Democratize Programming</title>
-      <link>https://stefan-lesser.com/2019/12/13/democratize-programming/</link>
-      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://stefan-lesser.com/2019/12/13/democratize-programming/</guid>
-      <description>Part 1 of my blog chain Beyond Code.
-At the end of 2016, after I had left Apple, and half-way into a year of traveling, I thought about what I wanted to tackle next and wrote down1 some big ideas that got me excited. As part of a larger document I wrote:
- Make Developing Software Accessible to Everyone
-aka &amp;ldquo;Fix software development&amp;rdquo;
-A lot has changed in software development over the last fifty years, but we still struggle with the same complexities.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Beyond Code on Stefan Lesser</title>
+		<link>https://stefan-lesser.com/categories/beyond-code/</link>
+		<description>Recent content in Beyond Code on Stefan Lesser</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 24 Dec 2019 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://stefan-lesser.com/categories/beyond-code/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>A Future of Programming</title>
+				<link>https://stefan-lesser.com/2019/12/24/a-future-of-programming/</link>
+				<pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
+				<guid>https://stefan-lesser.com/2019/12/24/a-future-of-programming/</guid>
+				<description>&lt;p&gt;Part 2 of my blog chain &lt;em&gt;Beyond Code&lt;/em&gt;. Start &lt;a href=&#34;https://stefan-lesser.com/2019/12/13/democratize-programming/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;the-a-future-of-programming&#34;&gt;&lt;del&gt;The&lt;/del&gt; A Future of Programming&lt;/h1&gt;&#xA;&lt;p&gt;There are so many directions to explore to &lt;a href=&#34;https://stefan-lesser.com/2019/12/13/democratize-programming/&#34;&gt;democratize programming&lt;/a&gt;. It&amp;rsquo;s useful to be opinionated, make some choices upfront, and shrink the solution space a bit. You might disagree with my choices here, and that&amp;rsquo;s ok. I write them down so we can find out quickly. That doesn&amp;rsquo;t mean other directions are wrong or less promising, this is just the direction I am headed.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Democratize Programming</title>
+				<link>https://stefan-lesser.com/2019/12/13/democratize-programming/</link>
+				<pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+				<guid>https://stefan-lesser.com/2019/12/13/democratize-programming/</guid>
+				<description>&lt;p&gt;&lt;em&gt;Part 1 of my blog chain &lt;em&gt;Beyond Code&lt;/em&gt;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;At the end of 2016, after I had left Apple, and half-way into a year of traveling, I thought about what I wanted to tackle next and wrote down&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; some big ideas that got me excited. As &lt;a href=&#34;#manifesto2017&#34;&gt;part of a larger document&lt;/a&gt; I wrote:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Make Developing Software Accessible to Everyone&lt;/strong&gt; &lt;br&gt;&#xA;&lt;em&gt;aka &amp;ldquo;Fix software development&amp;rdquo;&lt;/em&gt; &lt;br&gt;&#xA;A lot has changed in software development over the last fifty years, but we still struggle with the same complexities. Our tools got so much better, but our apps still crash, bugs are still hard to find, and codebases still hard to maintain. We invented countless programming languages, but we&amp;rsquo;re still typing letters on keyboards chaining little symbols into complex hierarchies using text editors. Today, regular people can become authors, photographers, movie directors, or music producers. We created tools that lowered the barrier of entry for everyone. If we can do it for them, we can do it for us. However, to do so, we need to fundamentally re-think the way we produce software. We need to challenge core assumptions to make programming easier, faster, and more accessible. Some tools we invented are more effective than others. What are these tools? How can we measure how effective they are? What can we learn from them to create even better tools? How can we write less code? Do we have to write code at all?&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

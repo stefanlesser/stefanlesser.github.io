@@ -1,55 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Universal Structure on Stefan Lesser</title>
-    <link>https://stefan-lesser.com/categories/universal-structure/</link>
-    <description>Recent content in Universal Structure on Stefan Lesser</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://stefan-lesser.com/categories/universal-structure/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Categories Structure Our World</title>
-      <link>https://stefan-lesser.com/2020/01/17/categories-structure-our-world/</link>
-      <pubDate>Fri, 17 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://stefan-lesser.com/2020/01/17/categories-structure-our-world/</guid>
-      <description>Part 4 of my blog chain Universal Structure. Start here.
- As we built up our taxonomy of animals with cats and dogs we talked about things we can point at — things that exist in the real world, like cats and dogs.
-Entities Let&amp;rsquo;s call these things in the real world entities. The words we use rarely describe a single entity. We use cat for all kinds of cats. And that&amp;rsquo;s what makes a category.</description>
-    </item>
-    
-    <item>
-      <title>Categories Everywhere</title>
-      <link>https://stefan-lesser.com/2019/12/20/categories-everywhere/</link>
-      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://stefan-lesser.com/2019/12/20/categories-everywhere/</guid>
-      <description>Part 3 of my Universal Structure blog chain. Start here.
- Language Human language, spoken or written, is an amazingly sophisticated invention that has evolved over centuries. We can describe concepts, transmit those descriptions through space and time, and create shared understanding. It&amp;rsquo;s not perfect, but it does work reasonably well to help us communicate.
-It&amp;rsquo;s no coincidence that we &amp;ldquo;talk&amp;rdquo; to computers with programming languages. Let&amp;rsquo;s forget about programming for a moment and focus just on human language.</description>
-    </item>
-    
-    <item>
-      <title>Free Your Mind</title>
-      <link>https://stefan-lesser.com/2019/12/10/free-your-mind/</link>
-      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://stefan-lesser.com/2019/12/10/free-your-mind/</guid>
-      <description>Part 2 of my Universal Structure blog chain. Start here.
- As I was thinking about structure and data models, I wondered about how we make decisions every day, almost effortlessly, which are fundamentally data model manipulations:
- Structuring emails or notes with headings and by moving paragraphs of text around Using lists and tables and knowing which items belong together and how to order them Creating graphs and visualizations to express certain points with &amp;ldquo;pictures worth more than a thousand words&amp;rdquo; Naming documents, files, and folders in a way sensible to us Filing away documents, emails, notes, and tasks into complex folder hierarchies Building these hierarchies in the first place and adapting them over time as our needs change  You don&amp;rsquo;t have to be a computer scientist or software engineer to do any of these things.</description>
-    </item>
-    
-    <item>
-      <title>Structure and Behavior</title>
-      <link>https://stefan-lesser.com/2019/12/06/structure-and-behavior/</link>
-      <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://stefan-lesser.com/2019/12/06/structure-and-behavior/</guid>
-      <description>Part 1 of my blog chain Universal Structure.
- In 2018 I wrote a vision document for a start-up I was planning to found shortly after (spoiler: I chose to not become a founder and am now an investor instead). The vision was grand: democratize programming and bring the power of computation to everyone, not just developers.
-Part of the vision document described the approach of how we wanted to tackle such a large challenge and cut it up into smaller pieces.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Universal Structure on Stefan Lesser</title>
+		<link>https://stefan-lesser.com/categories/universal-structure/</link>
+		<description>Recent content in Universal Structure on Stefan Lesser</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 17 Jan 2020 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://stefan-lesser.com/categories/universal-structure/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Categories Structure Our World</title>
+				<link>https://stefan-lesser.com/2020/01/17/categories-structure-our-world/</link>
+				<pubDate>Fri, 17 Jan 2020 00:00:00 +0000</pubDate>
+				<guid>https://stefan-lesser.com/2020/01/17/categories-structure-our-world/</guid>
+				<description>&lt;p&gt;Part 4 of my blog chain &lt;em&gt;Universal Structure&lt;/em&gt;. Start &lt;a href=&#34;https://stefan-lesser.com/2019/12/06/structure-and-behavior/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://stefan-lesser.com/2019/12/20/categories-everywhere/&#34;&gt;As we built up our taxonomy of &lt;code&gt;animals&lt;/code&gt; with &lt;code&gt;cats&lt;/code&gt; and &lt;code&gt;dogs&lt;/code&gt;&lt;/a&gt; we talked about things we can point at — things that exist in the real world, like cats and dogs.&lt;/p&gt;&#xA;&lt;h3 id=&#34;entities&#34;&gt;Entities&lt;/h3&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s call these things in the real world &lt;em&gt;entities&lt;/em&gt;. The words we use rarely describe a single entity. We use &lt;code&gt;cat&lt;/code&gt; for all &lt;em&gt;kinds&lt;/em&gt; of cats. And that&amp;rsquo;s what makes a &lt;em&gt;category&lt;/em&gt;. The symbol &lt;code&gt;cat&lt;/code&gt; signifies a category that can stand for any cat in the real world. When you say &lt;code&gt;cat&lt;/code&gt; you mean that the thing in the real world you refer to is a &lt;em&gt;kind&lt;/em&gt; of cat — it&amp;rsquo;s part of the category of all things in the world that are &lt;code&gt;cat&lt;/code&gt;s.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Categories Everywhere</title>
+				<link>https://stefan-lesser.com/2019/12/20/categories-everywhere/</link>
+				<pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+				<guid>https://stefan-lesser.com/2019/12/20/categories-everywhere/</guid>
+				<description>&lt;p&gt;Part 3 of my &lt;em&gt;Universal Structure&lt;/em&gt; blog chain. Start &lt;a href=&#34;https://stefan-lesser.com/2019/12/06/structure-and-behavior/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;language&#34;&gt;Language&lt;/h2&gt;&#xA;&lt;p&gt;Human language, spoken or written, is an amazingly sophisticated invention that has evolved over centuries. We can describe concepts, transmit those descriptions through space and time, and create shared understanding. It&amp;rsquo;s not perfect, but it does work reasonably well to help us communicate.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s no coincidence that we &amp;ldquo;talk&amp;rdquo; to computers with programming &lt;em&gt;languages&lt;/em&gt;. Let&amp;rsquo;s forget about programming for a moment and focus just on human language. &lt;br&gt;&#xA;Why is it worth analyzing human language to understand how we think?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Free Your Mind</title>
+				<link>https://stefan-lesser.com/2019/12/10/free-your-mind/</link>
+				<pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
+				<guid>https://stefan-lesser.com/2019/12/10/free-your-mind/</guid>
+				<description>&lt;p&gt;Part 2 of my &lt;em&gt;Universal Structure&lt;/em&gt; blog chain. Start &lt;a href=&#34;https://stefan-lesser.com/2019/12/06/structure-and-behavior/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;As I was thinking about structure and data models, I wondered about how we make decisions every day, almost effortlessly, which are fundamentally data model manipulations:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Structuring emails or notes with headings and by moving paragraphs of text around&lt;/li&gt;&#xA;&lt;li&gt;Using lists and tables and knowing which items belong together and how to order them&lt;/li&gt;&#xA;&lt;li&gt;Creating graphs and visualizations to express certain points with &amp;ldquo;pictures worth more than a thousand words&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;Naming documents, files, and folders in a way sensible to us&lt;/li&gt;&#xA;&lt;li&gt;Filing away documents, emails, notes, and tasks into complex folder hierarchies&lt;/li&gt;&#xA;&lt;li&gt;Building these hierarchies in the first place and adapting them over time as our needs change&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;You don&amp;rsquo;t have to be a computer scientist or software engineer to do any of these things. Chances are that if you are one, you think about them differently. And perhaps too much.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Structure and Behavior</title>
+				<link>https://stefan-lesser.com/2019/12/06/structure-and-behavior/</link>
+				<pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+				<guid>https://stefan-lesser.com/2019/12/06/structure-and-behavior/</guid>
+				<description>&lt;p&gt;Part 1 of my blog chain &lt;em&gt;Universal Structure&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;In 2018 I wrote a vision document for a start-up I was planning to found shortly after (&lt;em&gt;spoiler: I chose to not become a founder and am now an investor instead&lt;/em&gt;). The vision was grand: democratize programming and bring the power of computation to everyone, not just developers.&lt;/p&gt;&#xA;&lt;p&gt;Part of the vision document described the approach of how we wanted to tackle such a large challenge and cut it up into smaller pieces. In a section titled &lt;em&gt;&amp;ldquo;How to (not) democratize programming&amp;rdquo;&lt;/em&gt; I wrote:&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
