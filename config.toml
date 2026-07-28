@@ -1,11 +1,7 @@
 baseURL = "https://stefan-lesser.com/"
-locale = "en-us"
+defaultContentLanguage = "en"
 title = "Stefan Lesser"
 theme = "hugo-lithium-theme"
-features = ["blog"]
-
-min_version = 0.15
-rssLimit = 20
 
 [taxonomies]
   category = "categories"
@@ -13,6 +9,9 @@ rssLimit = 20
 
 [markup.goldmark.renderer]
     unsafe = true
+
+[services.rss]
+    limit = 20
 
 [author]
     name = "Stefan Lesser"
