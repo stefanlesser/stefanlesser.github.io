@@ -24,3 +24,7 @@ theme = "hugo-lithium-theme"
 [[menu.main]]
     name = "About"
     url = "/about/"
+
+[[menu.main]]
+    name = "Series"
+    url = "/series/"

@@ -1,0 +1,214 @@
+---
+title: "22 • Fundamental framing and human spirituality"
+date: 2023-03-24T18:01:07Z
+series: mirror-of-the-self
+---
+
+I’ve been dreading this moment (another reason why [last week’s edition was different](/2023/03/17/finding-paths-and-closing-loops/)). Have I explained enough to make this digestible? Have I paved a good enough path to comfortably face what’s coming next? Is it going to make sense, or will you accuse me of having lost mine?
+
+We’re going to find out now.
+
+As a recovering [rational-scientific objectivist](/2022/10/21/04-mind-over-matter/#diagnosis-missing-capacity-for-faith) and atheist myself, I understand how off-putting any discussion around spirituality is to such people. [I’ve tried extensively](/2022/10/07/02-challenging-your-belief-system/) to prepare us for worldview-shaking insights and [appealed to openness](/2022/10/21/04-mind-over-matter/) towards challenging ideas and perspectives.
+
+And I don’t even know what’s going to happen if you consider yourself a spiritual or religious person. Ok, enough disclaimers, let’s rip the bandaid off…
+
+What if human spirituality is a side effect of relevance realization — a side effect of how our cognitive system operates to make the world meaningful to us?
+
+### Fundamental framing
+
+{{< youtube id="_zkLevmQe90" start=500 >}}
+
+> I want to start pointing out some other aspects of [relevance realization] that I think contribute to it being — how do I want to say this — **represented, understood, grasped as spiritual in nature**.
+>
+> Let's take a look at some of the features of relevance realization that have come out of this argument. These are all going to be **ways in which we experience this as our fundamental [framing](/2022/12/09/11-attention-and-insight/#transparency-opacity-shifting) of reality**.
+>
+> That's good, but it has a sense of us standing outside. We're inside the framing. We are participating in it. The framing is at the level of the agent-arena. It's not just looking out. It's the inclusive relationship.
+>
+> But I want to point to the fundamentality of this. I would argue this is a way of interpreting what Heidegger means by the **primordiality** of what he was talking about. I'll criticize Heidegger later — I have criticisms of him — but I'm also trying to point out how this work, which seems so technical in some sense, can be connected to some deeply existential and phenomenological philosophy.
+>
+> #### Pre-conceptual
+>
+> First of all, the fundamentality of this: Notice that **[relevance realization] is ultimately pre-conceptual in nature**. It has to be because **it's** **below your level of [propositional processing](/2022/11/04/06-four-ways-of-knowing/)**:
+>
+> - [In order to have concepts, you have to categorize.](/2023/01/13/14-what-is-intelligence/#categorization) In order to categorize, you have to have relevance realization.
+> - Also, in order to categorize, you have to first have [demonstrative reference](/2023/02/24/19-here-and-now-ness/#salience-tagging), which is pure pre-conceptual relevance realization.
+>
+> So this [fundamental framing] is ultimately pre-conceptual in a deep way.
+>
+> #### Pre-propositional
+>
+> And in that important sense, it’s ultimately **pre-propositional**. If what we mean by belief — and it's often what we mean by belief — is [the assertion of propositions and their implications](/2022/11/04/06-four-ways-of-knowing/#propositional-tyranny), then **relevance realization is taking place at a level fundamentally deeper than the level of belief**.
+>
+> You understand that I'm not proposing that this is just a bottom-up process. Of course, how we conceptualize things and how we have beliefs about things [feeds back down](/2023/02/24/19-here-and-now-ness/#enacted-perspectival-knowing). That's why all those diagrams have feedback down arrows in them.
+>
+> #### Pre-inferential
+>
+> But we're talking about belief ultimately as an effect, it feeds back and affects, but it is ultimately an effect of relevance realization because, of course, this fundamental framing is **pre-inferential** in a deep way.
+>
+> #### Pre-communication
+>
+> It's **pre-communication**. “I learned this from other people!” Well, no, you can’t! There's a sense in which you can refine it from other people, but you can't ultimately learn it from other people, because **[learning presupposes [relevance realization]](/2023/01/13/14-what-is-intelligence/#communication)**.
+>
+> Being able to pay attention to your mother and pick up on how she's communicating with you and make inferences from that so that you start to categorize the world and figure out that this is a bottle presupposes [relevance realization].
+>
+> #### Pre-experiential
+>
+> And that points to something else: This is **pre-experiential**. Not in the sense that it's happening to you in some previous life. What I mean is that **your meaningfully structured experience, the level of common sense obviousness, is a result of it**. It is not generated by the level of common sense, obvious, meaningful world. That world is generated out of relevance realization being **coupled to the environment**. So it is pre-experiential.
+>
+> #### Pre-egoic
+>
+> It is **pre-egoic** (I think in some important ways it's also post-egoic, but I'll come back to that), because [your agency and the world as an arena](/2022/12/23/13-agent-and-arena/) in which you have a narratively structured, reliably acting ego, emerges — these co-emerge out of relevance realization. That's why they are primordially connected together in participatory knowing. Relevance realization is pre-egoic.
+>
+> **By the time you have "you" in a common-sensically obviated world of meaningful objects and situations, relevance realization has already done a tremendous amount of work.** So it's pre-egoic.
+>
+> #### Pre-normative
+>
+> It's **pre-normative**. Some people are not going to like that. I’m going to qualify that: It's pre-normative in the sense that it's your primordial normativity:
+>
+> - Before you can assess **truth**, things have to be **meaningful** to you.
+> - Before you can assess **beauty**, they have to be **aspectualized** for you.
+> - Before you can assess **goodness**, you have to have **agency and arena**.
+>
+> This makes possible your [normative judgments as to what is true, what is good, and what is beautiful](/2022/11/11/07-orders-of-meaning/). I'm not saying that those judgments are reducible. That's ridiculous! I'm not saying that, but I'm saying this is primordial to them. That was part of what I think Heidegger was going on about.
+>
+> #### Human spirituality
+>
+> What I want to talk about now is doing a little bit more of filling out, putting all of this together.
+>
+> Notice how much this points to aspects of **human spirituality**:
+>
+> - You have [self-transcendence](/2023/01/20/15-the-relevance-problem/#connections--relations-of-relevance), but you also have foolishness.
+> - You have the [connectedness, you have the perspectival and participatory knowing, you have the co-creation, the co-emergence, the co-determination of the agent-arena](/2022/12/23/13-agent-and-arena/#agent-and-arena).
+> - You have the core binding together of your agency, your caring, and your cognition.
+> - Think about Plato. It helps to explain the association of altered states of consciousness and especially higher states of consciousness with human spirituality.
+>
+> And notice: A lot of the features, that our spirit is somehow deeper. It's *deep*. Like we have all these deepness metaphors and profundity metaphors, because look what I'm showing you: That…
+>
+> - It's deeper than your ego.
+> - It’s deeper than your judgements of truth, goodness, and beauty.
+> - It's deeper than your propositional thinking.
+> - It's deeper than your conceptualization.
+>
+> “The Way that can be spoken of is not The Way.”
+>
+> It is pre-inferential. It is pre-communication. It is pre-experiential.
+>
+> **It is a fundamental grounding of your being. And you are being connected. Because I'm arguing that those are one and the same.**
+
+The framework of relevance realization suggest that we experience reality through a fundamental frame that we cannot escape. At the deep core of our cognitive system, relevance realization structures our experience of reality in such a way that everything we can make sense of and make sense with — concepts, categories, beliefs, ego, and our judgements of truth, goodness, and beauty — emerges from that depth.
+
+How, then, do we experience this origin of all our fundamental building blocks of cognition and sense making, if not as a deep grounding of our experience that lies outside the frame, cannot be captured inside it?
+
+Let’s just go with that for a moment and consider the following observations.
+
+### The Ground
+
+Christopher Alexander in *The Nature of Order*, book 4, chapter 2, *Clues from the history of art* (emphasis mine):
+
+> Yet the existence of this self — let us call it **“a something” which lies in me and beyond me** — is the basis of almost all human religion: certainly of all mystical religion. Time and again, in one discipline and another, it has been reaffirmed that a pure life can be led only under conditions where one recognizes, and lives, in connection to this eternal something — what some mystics also called “the ground” or “the void”. **The fact that this something is nameless, without substance, without form — and yet is also intensely personal — is one of the great mysteries at the source of art.**
+
+> In every case, the essential point concerns the existence of some realm, or some entity, variously referred to as the Void, the great Self, maha-Atman, God, the Friend, and the fact that **human life approaches its clear meaning, when and only when, a person makes contact with this Void**. The belief, widely expressed, is that as this connection occurs, the person becomes connected to all things, and at one and the same time more personal, more human, more transparent, and more peaceful.
+
+> So **human beings have felt the existence of the Void, have contemplated it, have tried to define it, have sought union with it**. And it has, for the reasons sketched above, also been the source of practical results in making living structure.
+>
+> What I call the eternal self is yet another name for it. The use of the word “self” focuses concentration on the fact that this void does contain all that is in *us*: it gives primacy to the fact that **this void is** ***already*** **in us**: that it is a part of the human being which exists already, and is available to us. In this sense, no matter what its ultimate character may be in the universe, or as a substrate of the universe, **it is something which appears in you and me, every day, and is there for the asking**.
+>
+> It is that which makes it powerful, which makes it useful. And this self — or “I” — is the core of every living center.
+
+While Alexander ultimately attempts an explanation that searches for the “I” to be part of a substrate of the universe, he simultaneously recognizes our own personal connection to it as part of our experience, in a way that is fully aligned with Vervaeke’s description of the fundamental framing of relevance realization.
+
+Of course, for Alexander this connection to the ground is ultimately in service of the creation of beauty and wholeness in the built world.
+
+### The role of the Ground in building — Relatedness
+
+Christopher Alexander in *The Nature of Order*, book 4, chapter 2, *Clues from the history of art* (emphasis mine):
+
+> All these works, I think, stand out because we experience in them a special quality of relatedness, relatedness of ourselves to the universe. **We feel that there must have existed, in their makers, a special relatedness with all things, which shows through and is reflected in their works.** And we, privileged to see these works or visit them, also ourselves feel **a special relatedness within ourselves, and to the world**, while we are in the presence of these works.
+>
+> **It is this relatedness which holds a clue to the process of creation.** It is the relatedness to Self. It is that relatedness between our individual self, and the matter of the universe, which is touched, and illuminated.
+
+A deep non-logical identity between the ungraspable (because combinatorially explosive) nature of reality, and the ungraspable (because fundamentally framed) nature of the self.
+
+We are getting close to understanding what *The Mirror of the Self* really is, and why being in touch with it is useful in the context of craft and creation.
+
+#### Hypothetical interviews with historical craftspeople
+
+*[I’m summarizing Alexander’s much more elaborate section here to make it much shorter and “punchier”. I want to preserve the specific examples he gives; though hypothetical, they are powerful pictures illustrating his point.]*
+
+> If we had the opportunity to ask historical craftspeople what they were doing and what they were aiming at, what would they say?
+>
+> - “For the glory of God.” — early Christian period craftsman
+> - “To become ‘drunk’ in God, losing ourselves, to become one with God.” — 15th-century Sufi woman weaving a carpet or painting tiles
+> - “Make it as though you were going to live a thousand years, and as though you were going to die tomorrow.” — Mother Ann, spiritual leader of the Shakers
+> - “The work itself is what matters.” — Master carpenter of a zen temple like Tofuku-ji in Kyoto
+
+*[Back to proper citation of the original text; as always, highlights mine:]*
+
+> Each one of these views was, in some form, based on an assumption that there exists a ground material of the universe, and that this ground material can somehow be “reached”. But what they meant by this “ground-material” was something simpler, that which I choose to call relatedness. 
+> **In reaching the ground people felt related to themselves. In reaching the ground they felt related to their fellow human beings. In reaching the ground they felt related, somehow, to all that is.**
+>
+> Most of the artists in these traditions believed that human beings are somehow alienated from this ground material, and that the hard work of becoming an artist, like any other spiritual journey, consists of somehow removing the barriers between one’s self and the ground. That is not greatly different from the view of modern doctors and teachers who believe that **we, as a people, are too often alienated from our own true self**.
+
+Imagine you live at a time where science as we understand it today doesn’t exist yet. Where many phenomena do not have the scientific explanations that we are accustomed to today.
+
+How would you make sense of that deep feeling of relatedness to your self, other people, and the world?
+
+How would you make sense of something you experience vividly, but do not have the words for to describe it?
+
+What would you end up with, if a large number of people in that time connect over such mysterious spiritual experiences, and consider them important enough to try to cultivate them?
+
+### Religion
+
+Christopher Alexander in *The Nature of Order*, book 4, chapter 2, *Clues from the history of art* (emphasis mine):
+
+> The details of the artistic or spiritual path proposed by different mystical teachings as a method for reaching the ground varied from one religion to another. Muslims emphasized prayer and communication with God; Christians emphasized love; St. Francis emphasized the love of every living creature; some Buddhists emphasized meditation; others, especially those of the Zen sects, approach life with the greatest matter-of-factness possible, and emphasized the ordinariness of the process, declaring that it is only hard work and the absence of irrelevant thought which leads us in the right direction. 
+> 
+> However, though they varied, all these teachings had certain essentials in common. They all emphasized the need to abandon concern with one’s own ego. They all emphasized the importance of hard work and repeated simple, even menial tasks. Above all, they all emphasized the desire to reach God, or the ground of all things, directly, face to face. **In all these cases, the task of making, the task of building itself, was to be understood as a spiritual exercise, a direct attempt to come face to face with the ground of the universe.**
+
+Both Alexander and Vervaeke look to the past at religion as something that was somehow able to provide us with the deep level of connectedness that enabled us to find meaning and empowered us to create the most beautiful buildings and artworks in history.
+
+But it doesn’t work like that anymore.
+
+{{< youtube id="Noc1OH0CUBc" start=259 >}}
+
+> I'd like to now pick up on what comes after Descartes, because I foreshadowed at the end of our last episode that we are in a quite significant situation: **We are radically disconnected from ourselves, both our own bodies and our own minds, from other people, from the world, from history, from culture, from sapiential institutions, from traditions of transformation.**
+>
+> We are radically isolated and bereft, and yet we face these tremendous crises: ecological crisis, socio-economic crisis, political crisis, mental health crisis. They're all interlocking and we face it… And they are so exigent and so pervasive and so profound and so complex that **we need a fundamental transformation in consciousness, cognition, character, community, in order to really restructure our sense of who and what we are and our relationship to the world**, in order to address these crises.
+>
+> The systematic set of psycho-technologies that have brought about such radical transformations in the past have been religion. And yet part of the heritage of Descartes and the scientific revolution and the ongoing fragmentation that has followed from the Protestant Reformation is an increasing secularization of the world.
+>
+> That's a little too simplistic. I mean, it's bifurcated: You get the **increasing secularization** on one hand and then the **increasing attempt to nostalgically retreat to a pre-scientific model** in various forms of fundamentalism, which of course is doomed, ultimately, to a complete kind of failure.
+>
+> But this is happening such that for many of us a return to religion in order to provide the multi-level, multi-variate, complex transformation that is needed to meet the crises that we are facing, is not available to us, precisely because **we are post-religious or we are myopically entrenched within a pre-scientific model of the scientific revolution** that will in no way avail us with what we need in order to address these crises.
+>
+> So either way you want to turn, **the religious option is not a viable one**.
+
+Both Alexander and Vervaeke conclude that a return to religion is at least unrealistic if not impossible.
+
+### Religio
+
+{{< youtube id="_zkLevmQe90" start=1003 >}}
+
+> **A lot of what is captured by your spirituality is captured by [the fundamental framing of relevance realization], the way this machinery unfolds phenomenologically, perspectively, in a participatory fashion.** There's these aspects of this that are therefore, in a fundamental sense, unconscious, but there are deep aspects of this in our consciousness, and there are deep aspects in this, in how our cognition and our consciousness are connected to the world.
+>
+> I want to use a term here, and then I'm going to develop it, for the whole right hand side. I want a term for all of this, so that I don't have to keep just gesturing and flinging my arms in a semi-organized fashion at the board. I'm going to use a term here. I'm going to use the term *religio*, and I'm using it deliberately. Let me explain why:
+>
+> First of all, as soon as you see that, many of you are hearing “religion”. But I'm not using the word "religion", I'm using the word "religio". But I want the associations with religion, nevertheless, to be there.
+>
+> Religio is one of the purported etymological origins of the word religion: "religare", which means to read back, which is importantly similar.
+>
+> **[Religio] means to bind together, to connect.** So it obviously is pointing to [relevance realization], but it carries with it many of these aspects: the primordiality, the fundamental framing of relevance realization, and all of this machinery. […]
+>
+> Paul Vanderclay would probably say that this is a word that fudges “spiritual”, and I don't want to be fudging! I am trying to specify how I'm using this word in detail and in organization. I'm using it in a spiritual sense, as the sense of a pre-egoic, ultimately post-egoic, binding that **simultaneously grounds the self and its world**.
+
+A deep non-logical identity between the ungraspable (because combinatorially explosive) nature of reality, and the ungraspable (because fundamentally framed) nature of the self.
+
+A deep participatory identification, coupled at the primordial levels of religio, at the Ground that grounds the self and its world.
+
+---
+
+Mirror of the Self *is a weekly newsletter series trying to explain the connection between creators and their creations, and analyze the process of crafting beautiful objects, products, and art. Using recent works of cognitive scientist John Vervaeke and design theorist Christopher Alexander, we embark on a journey to find out what enables us to create meaningful things that inspire awe and wonder in the people that know, use, and love them.*
+
+*If you are new to this series, start here: [A secular definition of sacredness](/2022/09/30/01-a-secular-definition-of-sacredness/).*
+
+*For an overview and synopsis of the first 13 articles, see: [Previously… — A Recap](/2023/01/06/previously-a-recap/).*
