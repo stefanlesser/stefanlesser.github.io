@@ -26,21 +26,10 @@ git push
 
 Watch the run in the repo's Actions tab. No further steps are needed.
 
-## One-time setup already performed / required
-
-- [x] Workflow committed at `.github/workflows/deploy.yml`
-- [x] Hugo source pushed to `stefanlesser.github.io` (replacing the old
-      generated-site commits on `master`)
-- [ ] GitHub repo Settings → Pages → Source switched to **GitHub Actions**
-      (do this *after* the source push; the first successful run then
-      re-deploys the site and the old generated content is retired)
-
 ## Notes
 
 - The Lithium theme is vendored at `themes/hugo-lithium-theme` (a copy of
   https://github.com/jrutheiser/hugo-lithium-theme with local
   customizations committed on top). Upstream updates, if ever wanted, must
   be applied manually.
-- The old local clone of the generated site (`stefanlesser.github.io/` next
-  to this directory) is now obsolete; previews happen locally with
-  `hugo server` in this directory.
+- Local previews happen with `hugo server` in this directory.
