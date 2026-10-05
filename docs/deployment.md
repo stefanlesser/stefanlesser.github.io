@@ -8,8 +8,8 @@ source of truth; the generated `public/` directory is never committed.
 
 1. Pushes to `master` trigger `.github/workflows/deploy.yml`.
 2. The workflow installs the pinned Hugo version (see `HUGO_VERSION` in the
-   workflow — keep it in sync with the local development version), checks out
-   the repo including the Lithium theme submodule, and runs `hugo --minify`.
+   workflow — keep it in sync with the local development version) and runs
+   `hugo --minify`.
 3. The `public/` output is uploaded as a Pages artifact and deployed by
    `actions/deploy-pages` to the `stefanlesser.github.io` repository, whose
    Pages source is set to **GitHub Actions** (Settings → Pages → Build and
@@ -37,8 +37,10 @@ Watch the run in the repo's Actions tab. No further steps are needed.
 
 ## Notes
 
-- The theme is a git submodule (`themes/hugo-lithium-theme`); the workflow
-  checks it out with `submodules: recursive`.
+- The Lithium theme is vendored at `themes/hugo-lithium-theme` (a copy of
+  https://github.com/jrutheiser/hugo-lithium-theme with local
+  customizations committed on top). Upstream updates, if ever wanted, must
+  be applied manually.
 - The old local clone of the generated site (`stefanlesser.github.io/` next
   to this directory) is now obsolete; previews happen locally with
   `hugo server` in this directory.

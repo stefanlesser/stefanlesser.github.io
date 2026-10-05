@@ -1,0 +1,20 @@
+      <footer class="footer">
+        <ul class="footer-links">
+          {{ with .Site.Home.OutputFormats.Get "RSS" }}
+          <li>
+            <a href="{{ .RelPermalink }}" type="application/rss+xml" target="_blank"><i class="fas fa-rss"></i></a>
+          </li>
+          {{ end }}
+          <li>
+              <a href="https://stefanlesser.substack.com" target="_blank"><i class="fab fas fa-bookmark"></i></a>
+          </li>
+          <li>
+              <a href="https://www.linkedin.com/in/stefanlesser/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+
+  </body>
+</html>
