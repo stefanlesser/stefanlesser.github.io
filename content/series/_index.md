@@ -22,6 +22,12 @@ As I was reviewing the earlier posts in my series On simplicity… in preparatio
 
 Voices on software design is a developing series.
 
+### [Behind the Game](/series/behind-the-game/)
+
+A series of conversations in which I talk to small game development studios and independent developers to shed some light on the difficult decisions, surprising challenges, and funny stories great games are made of.
+
+Behind the Game is a finished series with three interviews.
+
 ### Other articles in the [Archive](/)
 
 There’s more. Sometimes I write things that stand alone. Although they all have common themes that I’m sure you will pick up quickly.
