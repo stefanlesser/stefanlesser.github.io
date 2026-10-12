@@ -9,9 +9,9 @@ And then the world turns and stuff happens and we get pulled into our usual habi
 
 ### “What is it for?”
 
-{{< youtube id="TX9qSaGXFyg" >}}
+{{< youtube id="GYkq9Rgoj8E" start=4886 >}}
 
-Nine minutes of professionally produced product porn tell you all you need to know about the future that is coming to your living room in early 2024. Well, except one thing apparently. A lot of the tech pundits and early reviewers (as well as some of my friends) ask the same question: “What is it for?” Apparently, that we don’t really know yet. For some reason Apple has not satisfyingly answered this. Or have they? Is this even the right question to ask?
+The usual reveal video — professionally produced product porn — gets you excited about the future that is coming to your living room in early 2024. Well, except one thing apparently. A lot of the tech pundits and early reviewers (as well as some of my friends) ask the same question: “What is it for?” For some reason Apple has not satisfyingly answered this. Or have they? Is this even the right question to ask?
 
 Obviously, we need to know what it is for, right? Why would we buy something — especially something as ridiculously expensive as this — if we don’t really understand what it is for?
 
@@ -44,8 +44,8 @@ Now there are of course various reasons for him to frame it like that, some of w
 
 It also reminds me of various conversations I had in the past about, fascinatingly, almost always Apple products. There have been many discussions about if and why a Mac is superior to a PC. And, more recently, there were more discussions about if and why an iPhone is superior to an Android phone. And the arguments are always the same:
 
-- If you’re on the Apple side than the user experience is clearly better and the design is so qualitatively different that it justifies a much higher price.
-- And if you’re on the other side then you get basically the same thing or more, and often more features and flexibility with the other product.
+- If you’re on the Apple side, then the user experience is clearly better and the design is so qualitatively different that it justifies a much higher price.
+- And if you’re on the other side, then you get basically the same thing or more, and often more features and flexibility with the other product.
 
 Naturally, never was any one of those arguments ever compelling enough to convince the other side to change their minds.
 
@@ -79,11 +79,11 @@ That’s ridiculous!
 
 Or is that what design is really about?
 
-{{< youtube id="TX9qSaGXFyg" start=19 >}}
+{{< youtube id="cdsiWyenNvM" >}}
 
 > When you put on Apple Vision Pro, you see your world and everything in it.
 
-In a way, using a device that gets exclusive control over what you see and what you hear — a significant portion of how you experience the world — requires a lot of trust in that device.
+Using a device that gets exclusive control over what you see and what you hear — a significant portion of how you experience the world — requires a lot of trust in that device.
 
 The first thing Apple thinks is a good idea to show you when you put it on, is exactly what you saw before you put it on. This is not a conclusion you will come to, if you are trying to solve a specific problem. This is a conclusion you come to, when you listen to how it feels.
 
@@ -95,7 +95,7 @@ The “problems” being “solved” in this video are lame, if you look at it 
 
 Apple has always approached their products from this experience perspective first. Solving problems or finding jobs to be done was always a secondary activity that is enabled and hopefully enhanced by that experience. What these problems are, is up to you, not Apple.
 
-In a way they in designing a good experience they are doing higher-order problem solving. They try to create an experience that enables you to be the best possible problem solver this technology can enable you to be. Or at least have a bloody good time with whatever it is you are doing while using it.
+In a way, in designing a good experience they are doing higher-order problem-solving. They try to create an experience that enables you to be the best possible problem solver this technology can enable you to be. Or at least have a bloody good time with whatever it is you are doing while using it.
 
 ### Making meaning
 
@@ -125,7 +125,7 @@ Perhaps the most important problem for us to solve right now, is to figure out h
 
 ---
 
-Mirror of the Self *is a (bi-?)weekly newsletter series investigating the connection between creators and their creations, trying to understand the process of crafting beautiful objects, products, and art.*
+Mirror of the Self *is a bi-weekly newsletter series investigating the connection between creators and their creations, trying to understand the process of crafting beautiful objects, products, and art.*
 
 *Using recent works of cognitive scientist John Vervaeke and design theorist Christopher Alexander, we embark on a journey to find out what enables us to create meaningful things that inspire awe and wonder in the people that know, use, and love them.*
 
