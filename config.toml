@@ -1,7 +1,6 @@
 baseURL = "https://stefan-lesser.com/"
 defaultContentLanguage = "en"
 title = "Stefan Lesser"
-theme = "hugo-lithium-theme"
 
 [taxonomies]
   category = "categories"
